@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://img/letras/letra-A-pressed.png" type="Texture" id=1]
+
+[node name="Sprite" type="Sprite"]
+
+transform/pos = Vector2( -69, -65 )
+texture = ExtResource( 1 )
+hframes = 2
+
+

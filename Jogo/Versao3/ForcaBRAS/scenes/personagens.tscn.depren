@@ -1,0 +1,151 @@
+[gd_scene load_steps=15 format=1]
+
+[ext_resource path="res://img/menu_itens/personagens.png" type="Texture" id=1]
+[ext_resource path="res://scripts/personagens.gd" type="Script" id=2]
+[ext_resource path="res://img/personagens/escolha/boy_body_1_amarelo.png" type="Texture" id=3]
+[ext_resource path="res://img/personagens/escolha/boy_body_1_vermelho.png" type="Texture" id=4]
+[ext_resource path="res://img/personagens/escolha/boy_body_1_azul.png" type="Texture" id=5]
+[ext_resource path="res://img/personagens/escolha/boy_body_black_amarelo.png" type="Texture" id=6]
+[ext_resource path="res://img/personagens/escolha/boy_body_black_vermelho.png" type="Texture" id=7]
+[ext_resource path="res://img/personagens/escolha/boy_body_black_azul.png" type="Texture" id=8]
+[ext_resource path="res://img/personagens/escolha/girl_body_1_amarelo.png" type="Texture" id=9]
+[ext_resource path="res://img/personagens/escolha/girl_body_1_vermelho.png" type="Texture" id=10]
+[ext_resource path="res://img/personagens/escolha/girl_body_1_azul.png" type="Texture" id=11]
+[ext_resource path="res://img/personagens/escolha/girl_body_2_amarelo.png" type="Texture" id=12]
+[ext_resource path="res://img/personagens/escolha/girl_body_2_vermelho.png" type="Texture" id=13]
+[ext_resource path="res://img/personagens/escolha/girl_body_2_azul.png" type="Texture" id=14]
+
+
+[node name="personagens" type="EventPlayer"]
+
+stream/stream = null
+stream/play = false
+stream/loop = false
+stream/volume_db = 0.0
+stream/pitch_scale = 1.0
+stream/tempo_scale = 1.0
+stream/autoplay = false
+stream/paused = false
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+editor/display_folded = true
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+scroll/offset = Vector2( 0, 0 )
+scroll/base_offset = Vector2( 0, 0 )
+scroll/base_scale = Vector2( 1, 1 )
+scroll/limit_begin = Vector2( 0, 0 )
+scroll/limit_end = Vector2( 0, 0 )
+scroll/ignore_camera_zoom = true
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+motion/scale = Vector2( 1, 1 )
+motion/offset = Vector2( 0, 0 )
+motion/mirroring = Vector2( 0, 0 )
+
+[node name="TextureFrame" type="TextureFrame" parent="ParallaxBackground/ParallaxLayer"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 1025.0
+margin/bottom = 613.0
+texture = ExtResource( 1 )
+stretch_mode = 0
+
+[node name="Control" type="Control" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 40.0
+script/script = ExtResource( 2 )
+
+[node name="body_1" type="TextureButton" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 6.0
+margin/top = 191.0
+margin/right = 256.0
+margin/bottom = 491.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+textures/normal = ExtResource( 3 )
+textures/pressed = ExtResource( 4 )
+textures/hover = ExtResource( 5 )
+
+[node name="body_2" type="TextureButton" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 260.0
+margin/top = 191.0
+margin/right = 510.0
+margin/bottom = 491.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+textures/normal = ExtResource( 6 )
+textures/pressed = ExtResource( 7 )
+textures/hover = ExtResource( 8 )
+
+[node name="girl_1" type="TextureButton" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 513.0
+margin/top = 193.0
+margin/right = 763.0
+margin/bottom = 493.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+textures/normal = ExtResource( 9 )
+textures/pressed = ExtResource( 10 )
+textures/hover = ExtResource( 11 )
+
+[node name="girl_2" type="TextureButton" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 764.0
+margin/top = 196.0
+margin/right = 1014.0
+margin/bottom = 496.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+textures/normal = ExtResource( 12 )
+textures/pressed = ExtResource( 13 )
+textures/hover = ExtResource( 14 )
+
+[connection signal="pressed" from="Control/body_1" to="Control" method="_on_body_1_pressed"]
+
+[connection signal="pressed" from="Control/body_2" to="Control" method="_on_body_2_pressed"]
+
+[connection signal="pressed" from="Control/girl_1" to="Control" method="_on_girl_1_pressed"]
+
+[connection signal="pressed" from="Control/girl_2" to="Control" method="_on_girl_2_pressed"]
+
+

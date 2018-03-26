@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://img/menu_itens/menu.PNG" type="Texture" id=1]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+scroll/offset = Vector2( 0, 0 )
+scroll/base_offset = Vector2( 0, 0 )
+scroll/base_scale = Vector2( 1, 1 )
+scroll/limit_begin = Vector2( 0, 0 )
+scroll/limit_end = Vector2( 0, 0 )
+scroll/ignore_camera_zoom = false
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+transform/pos = Vector2( 34.8593, 34.8593 )
+motion/scale = Vector2( 1, 1 )
+motion/offset = Vector2( 0, 0 )
+motion/mirroring = Vector2( 0, 0 )
+
+[node name="TextureFrame" type="TextureFrame" parent="ParallaxLayer"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = -36.0
+margin/top = -36.0
+margin/right = 989.0
+margin/bottom = 605.0
+texture = ExtResource( 1 )
+stretch_mode = 0
+
+

@@ -1,0 +1,1701 @@
+[gd_scene load_steps=145 format=1]
+
+[ext_resource path="res://ParallaxBackground.tscn" type="PackedScene" id=1]
+[ext_resource path="res://img/menu_itens/fundo_fase.png" type="Texture" id=2]
+[ext_resource path="res://img/menu_itens/sol_1.png" type="Texture" id=3]
+[ext_resource path="res://img/menu_itens/sol_2.png" type="Texture" id=4]
+[ext_resource path="res://img/menu_itens/others/guaxi_1.tex" type="Texture" id=5]
+[ext_resource path="res://img/menu_itens/others/guaxi_2.tex" type="Texture" id=6]
+[ext_resource path="res://img/menu_itens/others/guaxi_3.tex" type="Texture" id=7]
+[ext_resource path="res://img/menu_itens/others/guaxi_4.tex" type="Texture" id=8]
+[ext_resource path="res://img/menu_itens/others/guaxi_5.tex" type="Texture" id=9]
+[ext_resource path="res://img/menu_itens/others/guaxi_6.tex" type="Texture" id=10]
+[ext_resource path="res://img/menu_itens/others/guaxi_7.tex" type="Texture" id=11]
+[ext_resource path="res://img/menu_itens/others/guaxi_8.tex" type="Texture" id=12]
+[ext_resource path="res://img/menu_itens/others/guaxi_9.tex" type="Texture" id=13]
+[ext_resource path="res://img/menu_itens/others/guaxi_10.tex" type="Texture" id=14]
+[ext_resource path="res://img/menu_itens/others/guaxi_11.tex" type="Texture" id=15]
+[ext_resource path="res://img/menu_itens/others/pato.tex" type="Texture" id=16]
+[ext_resource path="res://img/menu_itens/others/pato_1.tex" type="Texture" id=17]
+[ext_resource path="res://img/menu_itens/others/pato_2.tex" type="Texture" id=18]
+[ext_resource path="res://img/menu_itens/others/pato_3.tex" type="Texture" id=19]
+[ext_resource path="res://img/menu_itens/others/caracol_2.tex" type="Texture" id=20]
+[ext_resource path="res://img/menu_itens/others/borboleta_3.tex" type="Texture" id=21]
+[ext_resource path="res://img/menu_itens/others/borboleta_4.tex" type="Texture" id=22]
+[ext_resource path="res://img/menu_itens/others/borboleta_1.tex" type="Texture" id=23]
+[ext_resource path="res://img/menu_itens/others/borboleta_2.tex" type="Texture" id=24]
+[ext_resource path="res://img/menu_itens/others/passaro_1.tex" type="Texture" id=25]
+[ext_resource path="res://img/menu_itens/others/passaro_2.tex" type="Texture" id=26]
+[ext_resource path="res://img/menu_itens/others/passaro_3.tex" type="Texture" id=27]
+[ext_resource path="res://img/menu_itens/others/passaro_4.tex" type="Texture" id=28]
+[ext_resource path="res://img/menu_itens/others/passaro_5.tex" type="Texture" id=29]
+[ext_resource path="res://img/menu_itens/others/gato_1.tex" type="Texture" id=30]
+[ext_resource path="res://img/menu_itens/others/gato_2.tex" type="Texture" id=31]
+[ext_resource path="res://img/menu_itens/others/gato_3.tex" type="Texture" id=32]
+[ext_resource path="res://img/menu_itens/others/gato_4.tex" type="Texture" id=33]
+[ext_resource path="res://img/menu_itens/others/gato_5.tex" type="Texture" id=34]
+[ext_resource path="res://img/menu_itens/others/gato_6.tex" type="Texture" id=35]
+[ext_resource path="res://img/menu_itens/others/gato_7.tex" type="Texture" id=36]
+[ext_resource path="res://img/menu_itens/others/gato_8.tex" type="Texture" id=37]
+[ext_resource path="res://img/menu_itens/others/gato_9.tex" type="Texture" id=38]
+[ext_resource path="res://img/menu_itens/others/cachorro_1.tex" type="Texture" id=39]
+[ext_resource path="res://img/menu_itens/others/cachorro_2.tex" type="Texture" id=40]
+[ext_resource path="res://img/menu_itens/others/cachorro_3.tex" type="Texture" id=41]
+[ext_resource path="res://img/menu_itens/others/cachorro_4.tex" type="Texture" id=42]
+[ext_resource path="res://img/menu_itens/others/cachorro_5.tex" type="Texture" id=43]
+[ext_resource path="res://img/menu_itens/others/cachorro_6.tex" type="Texture" id=44]
+[ext_resource path="res://img/menu_itens/others/cachorro_7.tex" type="Texture" id=45]
+[ext_resource path="res://img/menu_itens/others/cachorro_8.tex" type="Texture" id=46]
+[ext_resource path="res://img/menu_itens/others/abelha_1.tex" type="Texture" id=47]
+[ext_resource path="res://img/menu_itens/others/abelha_2.tex" type="Texture" id=48]
+[ext_resource path="res://scripts/SpriteAnimated.gd" type="Script" id=49]
+[ext_resource path="res://scripts/move.gd" type="Script" id=50]
+[ext_resource path="res://img/menu_itens/nuvem_1.png" type="Texture" id=51]
+[ext_resource path="res://scripts/move_sprite.gd" type="Script" id=52]
+[ext_resource path="res://img/menu_itens/nuvem_2.png" type="Texture" id=53]
+[ext_resource path="res://img/menu_itens/nuvem_3.png" type="Texture" id=54]
+[ext_resource path="res://img/menu_itens/arvore.png" type="Texture" id=55]
+[ext_resource path="res://img/menu_itens/titulo_personagens.png" type="Texture" id=56]
+[ext_resource path="res://img/menu_itens/PARABENS.png" type="Texture" id=57]
+[ext_resource path="res://img/menu_itens/Perdeu.png" type="Texture" id=58]
+[ext_resource path="res://img/menu_itens/fim.png" type="Texture" id=59]
+[ext_resource path="res://img/body_1.tscn" type="PackedScene" id=60]
+[ext_resource path="res://img/body_2.tscn" type="PackedScene" id=61]
+[ext_resource path="res://img/girl_1.tscn" type="PackedScene" id=62]
+[ext_resource path="res://img/girl_2.tscn" type="PackedScene" id=63]
+[ext_resource path="res://img/voltar.tscn" type="PackedScene" id=64]
+[ext_resource path="res://play.tscn" type="PackedScene" id=65]
+[ext_resource path="res://img/menu_itens/voltar_amarelo.png" type="Texture" id=66]
+[ext_resource path="res://img/menu_itens/voltar_vermelho.png" type="Texture" id=67]
+[ext_resource path="res://img/menu_itens/voltar_azul.png" type="Texture" id=68]
+[ext_resource path="res://img/menu_itens/RESULTADO_AMARELO.png" type="Texture" id=69]
+[ext_resource path="res://img/menu_itens/RESULTADO_VERMELHO.png" type="Texture" id=70]
+[ext_resource path="res://img/menu_itens/RESULTADO_AZUL.png" type="Texture" id=71]
+[ext_resource path="res://img/personagens/boy_1/perna_direita.png" type="Texture" id=72]
+[ext_resource path="res://img/personagens/boy_1/perna_esquerda.png" type="Texture" id=73]
+[ext_resource path="res://img/personagens/boy_1/braco_direito.png" type="Texture" id=74]
+[ext_resource path="res://img/personagens/boy_1/braco_esquerdo.png" type="Texture" id=75]
+[ext_resource path="res://img/personagens/boy_1/camisa.png" type="Texture" id=76]
+[ext_resource path="res://img/personagens/boy_1/bermuda.png" type="Texture" id=77]
+[ext_resource path="res://img/personagens/boy_1/exp_1.png" type="Texture" id=78]
+[ext_resource path="res://img/personagens/boy_1/exp_2.png" type="Texture" id=79]
+[ext_resource path="res://img/personagens/boy_1/exp_3.png" type="Texture" id=80]
+[ext_resource path="res://img/personagens/boy_1/exp_4.png" type="Texture" id=81]
+[ext_resource path="res://img/personagens/boy_1/exp_5.png" type="Texture" id=82]
+[ext_resource path="res://img/personagens/3/camisa.png" type="Texture" id=83]
+[ext_resource path="res://img/personagens/3/bermuda.PNG" type="Texture" id=84]
+[ext_resource path="res://img/personagens/3/exp_1.PNG" type="Texture" id=85]
+[ext_resource path="res://img/personagens/3/exp_2.PNG" type="Texture" id=86]
+[ext_resource path="res://img/personagens/3/exp_3.PNG" type="Texture" id=87]
+[ext_resource path="res://img/personagens/3/exp_4.PNG" type="Texture" id=88]
+[ext_resource path="res://img/personagens/3/exp_5.PNG" type="Texture" id=89]
+[ext_resource path="res://img/personagens/2/camisa_g_1.png" type="Texture" id=90]
+[ext_resource path="res://img/personagens/2/saia_1.png" type="Texture" id=91]
+[ext_resource path="res://img/personagens/2/exp_1.png" type="Texture" id=92]
+[ext_resource path="res://img/personagens/2/exp_2.png" type="Texture" id=93]
+[ext_resource path="res://img/personagens/2/exp_3.png" type="Texture" id=94]
+[ext_resource path="res://img/personagens/2/exp_4.png" type="Texture" id=95]
+[ext_resource path="res://img/personagens/2/exp_5.png" type="Texture" id=96]
+[ext_resource path="res://img/personagens/4/saia_1.png" type="Texture" id=97]
+[ext_resource path="res://img/personagens/4/exp_1.png" type="Texture" id=98]
+[ext_resource path="res://img/personagens/4/exp_2.png" type="Texture" id=99]
+[ext_resource path="res://img/personagens/4/exp_3.png" type="Texture" id=100]
+[ext_resource path="res://img/personagens/4/exp_4.png" type="Texture" id=101]
+[ext_resource path="res://img/personagens/4/exp_5.png" type="Texture" id=102]
+[ext_resource path="res://scripts/buttonSelect.gd" type="Script" id=103]
+[ext_resource path="res://testeSpriteApagarDepois.tscn" type="PackedScene" id=104]
+[ext_resource path="res://img/dificil/letra-A-pressed.png" type="Texture" id=105]
+[ext_resource path="res://img/dificil/letra-B-pressed.PNG" type="Texture" id=106]
+[ext_resource path="res://img/dificil/letra-C-pressed.PNG" type="Texture" id=107]
+[ext_resource path="res://img/dificil/letra-D-pressed.PNG" type="Texture" id=108]
+[ext_resource path="res://img/dificil/letra-E-pressed.PNG" type="Texture" id=109]
+[ext_resource path="res://img/dificil/letra-F-pressed.PNG" type="Texture" id=110]
+[ext_resource path="res://img/dificil/letra-G-pressed.PNG" type="Texture" id=111]
+[ext_resource path="res://img/dificil/letra-H-pressed.PNG" type="Texture" id=112]
+[ext_resource path="res://img/dificil/letra-I-pressed.PNG" type="Texture" id=113]
+[ext_resource path="res://img/dificil/letra-J-pressed.PNG" type="Texture" id=114]
+[ext_resource path="res://img/dificil/letra-K-pressed.PNG" type="Texture" id=115]
+[ext_resource path="res://img/dificil/letra-L-pressed.PNG" type="Texture" id=116]
+[ext_resource path="res://img/dificil/letra-M-pressed.PNG" type="Texture" id=117]
+[ext_resource path="res://img/dificil/letra-N-pressed.png" type="Texture" id=118]
+[ext_resource path="res://img/dificil/letra-O-pressed.png" type="Texture" id=119]
+[ext_resource path="res://img/dificil/letra-P-pressed.png" type="Texture" id=120]
+[ext_resource path="res://img/dificil/letra-Q-pressed.png" type="Texture" id=121]
+[ext_resource path="res://img/dificil/letra-R-pressed.png" type="Texture" id=122]
+[ext_resource path="res://img/dificil/letra-S-pressed.png" type="Texture" id=123]
+[ext_resource path="res://img/dificil/letra-T-pressed.png" type="Texture" id=124]
+[ext_resource path="res://img/dificil/letra-U-pressed.png" type="Texture" id=125]
+[ext_resource path="res://img/dificil/letra-V-pressed.png" type="Texture" id=126]
+[ext_resource path="res://img/dificil/letra-W-pressed.png" type="Texture" id=127]
+[ext_resource path="res://img/dificil/letra-X-pressed.png" type="Texture" id=128]
+[ext_resource path="res://img/dificil/letra-Y-pressed.png" type="Texture" id=129]
+[ext_resource path="res://img/dificil/letra-Z-pressed.png" type="Texture" id=130]
+[ext_resource path="res://FontePrincipall.fnt" type="BitmapFont" id=131]
+[ext_resource path="res://FonteSecundaria.fnt" type="BitmapFont" id=132]
+[ext_resource path="res://acertos.tscn" type="PackedScene" id=133]
+[ext_resource path="res://erros.tscn" type="PackedScene" id=134]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "sol",
+"speed": 0.1
+} ]
+
+[sub_resource type="GDScript" id=2]
+
+script/source = "extends AnimatedSprite
+
+var tempElapsed = 0
+
+func _ready():
+   set_process(true)
+   
+func _process(delta):
+   tempElapsed = tempElapsed + delta
+   
+   if(tempElapsed > 1):
+      if(get_frame() == self.get_sprite_frames().get_frame_count('sol')-1):
+         set_frame(0)
+      else:
+         self.set_frame(get_frame() + 1)
+      
+      tempElapsed = 0"
+
+[sub_resource type="SpriteFrames" id=3]
+
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ) ],
+"loop": true,
+"name": "guaxi",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "pato",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 20 ) ],
+"loop": true,
+"name": "caracol",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ) ],
+"loop": true,
+"name": "borboleta_2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 23 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "borboleta_1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ) ],
+"loop": true,
+"name": "passaro",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ) ],
+"loop": true,
+"name": "gato",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ) ],
+"loop": true,
+"name": "cachorro",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 47 ), ExtResource( 48 ) ],
+"loop": true,
+"name": "abelha",
+"speed": 5.0
+} ]
+
+[sub_resource type="Curve2D" id=4]
+
+bake_interval = 5.0
+_data = {
+"points": Vector2Array( 0, 0, 0, 0, -704.884, 130.787, 0, 0, 0, 0, -706.777, 128.263, 0, 0, 0, 0, -707.566, 123.845, 0, 0, 0, 0, -705.989, 118.796, 0, 0, 0, 0, -702.36, 111.696, 0, 0, 0, 0, -697.942, 107.751, 0, 0, 0, 0, -690.053, 104.911, 0, 0, 0, 0, -685.004, 108.856, 0, 0, 0, 0, -681.375, 120.216, 0, 0, 0, 0, -684.688, 132.365, 0, 0, 0, 0, -694.313, 142.463, 0, 0, 0, 0, -703.78, 145.303, 0, 0, 0, 0, -703.78, 136.94, 0, 0, 0, 0, -706.462, 131.734 )
+}
+
+[sub_resource type="Curve2D" id=5]
+
+bake_interval = 5.0
+_data = {
+"points": Vector2Array( 0, 0, 0, 0, -675.395, 171.107, 0, 0, 0, 0, -672.159, 168.195, 0, 0, 0, 0, -670.218, 164.312, 0, 0, 0, 0, -667.63, 156.224, 0, 0, 0, 0, -666.983, 150.4, 0, 0, 0, 0, -666.012, 144.253, 0, 0, 0, 0, -666.012, 136.812, 0, 0, 0, 0, -666.336, 130.341, 0, 0, 0, 0, -667.953, 123.871, 0, 0, 0, 0, -670.542, 116.429, 0, 0, 0, 0, -673.13, 110.606, 0, 0, 0, 0, -676.689, 106.4, 0, 0, 0, 0, -679.924, 104.135, 0, 0, 0, 0, -685.748, 101.87, 0, 0, 0, 0, -691.895, 101.547, 0, 0, 0, 0, -701.601, 101.87, 0, 0, 0, 0, -709.042, 104.459, 0, 0, 0, 0, -716.807, 109.635, 0, 0, 0, 0, -722.307, 117.4, 0, 0, 0, 0, -726.837, 125.488, 0, 0, 0, 0, -730.14, 131.354, 0, 0, 0, 0, -732.081, 134.913, 0, 0, 0, 0, -733.699, 139.766, 0, 0, 0, 0, -734.993, 144.296, 0, 0, 0, 0, -735.64, 150.443, 0, 0, 0, 0, -734.67, 157.884, 0, 0, 0, 0, -733.376, 161.767, 0, 0, 0, 0, -730.464, 168.561, 0, 0, 0, 0, -727.552, 173.737, 0, 0, 0, 0, -723.67, 178.59, 0, 0, 0, 0, -720.111, 180.532, 0, 0, 0, 0, -713.64, 183.443, 0, 0, 0, 0, -704.258, 186.032, 0, 0, 0, 0, -696.493, 185.708, 0, 0, 0, 0, -689.052, 184.09, 0, 0, 0, 0, -683.551, 181.502, 0, 0, 0, 0, -679.993, 178.267, 0, 0, 0, 0, -676.757, 174.061 )
+}
+
+[sub_resource type="Curve2D" id=6]
+
+bake_interval = 5.0
+_data = {
+"points": Vector2Array( 0, 0, 0, 0, 112.443, 173.447, 0, 0, 0, 0, 114.287, 171.588, 0, 0, 0, 0, 115.274, 169.306, 0, 0, 0, 0, 115.834, 166.741, 0, 0, 0, 0, 115.961, 163.038, 0, 0, 0, 0, 117.088, 160.043, 0, 0, 0, 0, 116.933, 156.911, 0, 0, 0, 0, 115.644, 155.207, 0, 0, 0, 0, 113.506, 154.504, 0, 0, 0, 0, 110.657, 154.373, 0, 0, 0, 0, 108.095, 154.526, 0, 0, 0, 0, 106.392, 155.957, 0, 0, 0, 0, 104.267, 158.671, 0, 0, 0, 0, 103.419, 160.383, 0, 0, 0, 0, 102.716, 162.522, 0, 0, 0, 0, 102.437, 164.089, 0, 0, 0, 0, 101.167, 166.942, 0, 0, 0, 0, 100.47, 170.505, 0, 0, 0, 0, 101.762, 173.206, 0, 0, 0, 0, 104.477, 175.473, 0, 0, 0, 0, 106.758, 176.176, 0, 0, 0, 0, 110.032, 175.878, 0, 0, 0, 0, 111.738, 175.016 )
+}
+
+[sub_resource type="Curve2D" id=7]
+
+bake_interval = 5.0
+_data = {
+"points": Vector2Array( 0, 0, 0, 0, 206.07, 322.443, 0, 0, 0, 0, 206.921, 321.971, 0, 0, 0, 0, 207.676, 320.837, 0, 0, 0, 0, 207.865, 319.987, 0, 0, 0, 0, 208.054, 319.231, 0, 0, 0, 0, 208.338, 317.814, 0, 0, 0, 0, 207.771, 317.058, 0, 0, 0, 0, 207.204, 316.397, 0, 0, 0, 0, 205.787, 316.019, 0, 0, 0, 0, 204.464, 316.208, 0, 0, 0, 0, 203.142, 316.681, 0, 0, 0, 0, 202.197, 317.72, 0, 0, 0, 0, 201.536, 319.515, 0, 0, 0, 0, 201.158, 321.215, 0, 0, 0, 0, 201.347, 322.16, 0, 0, 0, 0, 202.197, 323.199, 0, 0, 0, 0, 203.142, 323.388, 0, 0, 0, 0, 204.087, 323.577, 0, 0, 0, 0, 205.315, 323.388 )
+}
+
+[sub_resource type="Curve2D" id=8]
+
+bake_interval = 5.0
+_data = {
+"points": Vector2Array( 0, 0, 0, 0, 585.894, 103.788, 0, 0, 0, 0, -1315.26, 59.4664 )
+}
+
+[sub_resource type="Curve2D" id=9]
+
+bake_interval = 5.0
+_data = {
+"points": Vector2Array( 0, 0, 0, 0, 759.09, 12.5269, 0, 0, 0, 0, -460.37, 4.73483 )
+}
+
+[sub_resource type="Curve2D" id=10]
+
+bake_interval = 5.0
+_data = {
+"points": Vector2Array( 0, 0, 0, 0, 7.6561, 16.8073, 0, 0, 0, 0, -1311.49, -3.02069 )
+}
+
+[node name="Panel" type="Panel"]
+
+visibility/visible = false
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 35.0
+margin/top = 413.0
+margin/right = 990.0
+margin/bottom = 566.0
+
+[node name="ParallaxBackground" parent="." instance=ExtResource( 1 )]
+
+[node name="ParallaxLayer" parent="ParallaxBackground"]
+
+editor/display_folded = true
+
+[node name="TextureFrame" parent="ParallaxBackground/ParallaxLayer"]
+
+margin/right = 1406.0
+margin/bottom = 1155.0
+texture = ExtResource( 2 )
+
+[node name="Node2D" type="Node2D" parent="ParallaxBackground"]
+
+transform/pos = Vector2( 751.581, 55.1159 )
+
+[node name="sol" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
+
+transform/pos = Vector2( -15.0316, 21.7123 )
+frames = SubResource( 1 )
+animation = "sol"
+script/script = SubResource( 2 )
+
+[node name="cachorro" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
+
+transform/pos = Vector2( -84.2687, 187.294 )
+transform/scale = Vector2( -0.70975, 0.804267 )
+frames = SubResource( 3 )
+animation = "cachorro"
+script/script = ExtResource( 49 )
+
+[node name="gato" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
+
+transform/pos = Vector2( -566.048, 202.491 )
+transform/scale = Vector2( 0.319073, 0.301162 )
+frames = SubResource( 3 )
+animation = "gato"
+script/script = ExtResource( 49 )
+
+[node name="passaro" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
+
+transform/pos = Vector2( 165.508, 332.993 )
+transform/scale = Vector2( -0.46389, 0.467341 )
+frames = SubResource( 3 )
+animation = "passaro"
+script/script = ExtResource( 49 )
+
+[node name="guaxi" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
+
+transform/pos = Vector2( -636.543, 307.26 )
+transform/scale = Vector2( 0.644913, 0.683639 )
+frames = SubResource( 3 )
+animation = "guaxi"
+script/script = ExtResource( 49 )
+
+[node name="Path2D" type="Path2D" parent="ParallaxBackground/Node2D"]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 70 )
+z/relative = false
+curve = SubResource( 4 )
+
+[node name="PathFollow2D" type="PathFollow2D" parent="ParallaxBackground/Node2D/Path2D"]
+
+transform/pos = Vector2( -704.884, 130.787 )
+transform/rot = 118.972
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = true
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="borboleta_1" type="AnimatedSprite" parent="ParallaxBackground/Node2D/Path2D/PathFollow2D"]
+
+transform/pos = Vector2( 1.79172, 2.08658 )
+transform/rot = -26.834
+transform/scale = Vector2( 0.250437, 0.216822 )
+frames = SubResource( 3 )
+animation = "borboleta_1"
+frame = 1
+playing = true
+script/script = ExtResource( 50 )
+
+[node name="Path2D 2" type="Path2D" parent="ParallaxBackground/Node2D"]
+
+editor/display_folded = true
+z/relative = false
+curve = SubResource( 5 )
+
+[node name="PathFollow2D" type="PathFollow2D" parent="ParallaxBackground/Node2D/Path2D 2"]
+
+transform/pos = Vector2( -675.395, 171.107 )
+transform/scale = Vector2( 2.25436, 2.53612 )
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = false
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="borboleta_2" type="AnimatedSprite" parent="ParallaxBackground/Node2D/Path2D 2/PathFollow2D"]
+
+transform/pos = Vector2( 73.8098, -8.36501 )
+transform/rot = -1.71913e-06
+transform/scale = Vector2( -0.138882, 0.112887 )
+frames = SubResource( 3 )
+animation = "borboleta_2"
+playing = true
+script/script = ExtResource( 50 )
+
+[node name="Path2D 3" type="Path2D" parent="ParallaxBackground/Node2D"]
+
+editor/display_folded = true
+transform/rot = -0.232163
+curve = SubResource( 6 )
+
+[node name="PathFollow2D" type="PathFollow2D" parent="ParallaxBackground/Node2D/Path2D 3"]
+
+transform/pos = Vector2( 112.443, 173.447 )
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = false
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="abelha" type="AnimatedSprite" parent="ParallaxBackground/Node2D/Path2D 3/PathFollow2D"]
+
+transform/pos = Vector2( 117.003, -13.8513 )
+transform/rot = 4.48645
+transform/scale = Vector2( -0.291657, 0.259868 )
+frames = SubResource( 3 )
+animation = "abelha"
+frame = 1
+playing = true
+script/script = ExtResource( 50 )
+
+[node name="Path2D 4" type="Path2D" parent="ParallaxBackground/Node2D"]
+
+editor/display_folded = true
+curve = SubResource( 7 )
+
+[node name="PathFollow2D" type="PathFollow2D" parent="ParallaxBackground/Node2D/Path2D 4"]
+
+transform/pos = Vector2( 206.07, 322.443 )
+transform/scale = Vector2( 2.43176, 1.36915 )
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = false
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="pato" type="AnimatedSprite" parent="ParallaxBackground/Node2D/Path2D 4/PathFollow2D"]
+
+transform/pos = Vector2( -9.8515, -28.7013 )
+transform/scale = Vector2( 0.113913, 0.231865 )
+frames = SubResource( 3 )
+animation = "pato"
+playing = true
+script/script = ExtResource( 50 )
+
+[node name="nuvem_1" type="Path2D" parent="ParallaxBackground/Node2D"]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 47 )
+curve = SubResource( 8 )
+
+[node name="PathFollow2D" type="PathFollow2D" parent="ParallaxBackground/Node2D/nuvem_1"]
+
+transform/pos = Vector2( 585.894, 103.788 )
+transform/rot = 178.664
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = true
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="nuvem" type="Sprite" parent="ParallaxBackground/Node2D/nuvem_1/PathFollow2D"]
+
+transform/pos = Vector2( -68.0187, 68.0187 )
+texture = ExtResource( 51 )
+script/script = ExtResource( 52 )
+
+[node name="nuvem_2" type="Path2D" parent="ParallaxBackground/Node2D"]
+
+editor/display_folded = true
+transform/pos = Vector2( -393.792, -11.4558 )
+curve = SubResource( 9 )
+
+[node name="PathFollow2D" type="PathFollow2D" parent="ParallaxBackground/Node2D/nuvem_2"]
+
+transform/pos = Vector2( 759.09, 12.5269 )
+transform/rot = 179.634
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = true
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="nuvem1" type="Sprite" parent="ParallaxBackground/Node2D/nuvem_2/PathFollow2D"]
+
+transform/pos = Vector2( 7.87579, 20.5085 )
+texture = ExtResource( 53 )
+script/script = ExtResource( 52 )
+
+[node name="nuvem_3" type="Path2D" parent="ParallaxBackground/Node2D"]
+
+editor/display_folded = true
+transform/pos = Vector2( 400.952, 24.3435 )
+curve = SubResource( 10 )
+
+[node name="PathFollow2D" type="PathFollow2D" parent="ParallaxBackground/Node2D/nuvem_3"]
+
+transform/pos = Vector2( 7.6561, 16.8073 )
+transform/rot = 179.139
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = true
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="nuvem2" type="Sprite" parent="ParallaxBackground/Node2D/nuvem_3/PathFollow2D"]
+
+transform/pos = Vector2( -26.4915, 7.62072 )
+texture = ExtResource( 54 )
+script/script = ExtResource( 52 )
+
+[node name="arvore" type="TextureFrame" parent="ParallaxBackground"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 87.0
+margin/top = -4.0
+margin/right = 260.0
+margin/bottom = 297.0
+texture = ExtResource( 55 )
+stretch_mode = 0
+
+[node name="TextureFrame" type="TextureFrame" parent="ParallaxBackground"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 214.0
+margin/top = 58.0
+margin/right = 825.0
+margin/bottom = 170.0
+texture = ExtResource( 56 )
+stretch_mode = 0
+
+[node name="parabens" type="TextureFrame" parent="ParallaxBackground"]
+
+visibility/visible = false
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 298.0
+margin/top = 144.0
+margin/right = 730.0
+margin/bottom = 279.0
+texture = ExtResource( 57 )
+stretch_mode = 0
+
+[node name="perdeu" type="TextureFrame" parent="ParallaxBackground"]
+
+visibility/visible = false
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 363.0
+margin/top = 97.0
+margin/right = 670.0
+margin/bottom = 209.0
+texture = ExtResource( 58 )
+stretch_mode = 0
+
+[node name="fim" type="TextureFrame" parent="ParallaxBackground"]
+
+visibility/visible = false
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 436.0
+margin/top = 97.0
+margin/right = 582.0
+margin/bottom = 206.0
+texture = ExtResource( 59 )
+stretch_mode = 0
+
+[node name="body_1" parent="ParallaxBackground" instance=ExtResource( 60 )]
+
+margin/left = 38.0
+margin/top = 244.0
+margin/right = 213.0
+margin/bottom = 454.0
+params/scale = Vector2( 0.7, 0.7 )
+
+[node name="body_2" parent="ParallaxBackground" instance=ExtResource( 61 )]
+
+margin/left = 292.0
+margin/top = 244.0
+margin/right = 467.0
+margin/bottom = 454.0
+params/scale = Vector2( 0.7, 0.7 )
+
+[node name="girl_1" parent="ParallaxBackground" instance=ExtResource( 62 )]
+
+margin/left = 545.0
+margin/top = 244.0
+margin/right = 720.0
+margin/bottom = 454.0
+params/scale = Vector2( 0.7, 0.7 )
+
+[node name="girl_2" parent="ParallaxBackground" instance=ExtResource( 63 )]
+
+margin/left = 796.0
+margin/top = 245.0
+margin/right = 971.0
+margin/bottom = 455.0
+params/scale = Vector2( 0.7, 0.7 )
+
+[node name="voltar_tela2" parent="ParallaxBackground" instance=ExtResource( 64 )]
+
+[node name="play" parent="." instance=ExtResource( 65 )]
+
+visibility/visible = false
+margin/left = 771.0
+margin/top = -383.0
+margin/right = 966.2
+margin/bottom = -331.8
+params/resize_mode = 0
+params/scale = Vector2( 0.8, 0.8 )
+params/stretch_mode = 0
+
+[node name="voltar" type="TextureButton" parent="."]
+
+visibility/visible = false
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 768.0
+margin/top = -307.0
+margin/right = 963.2
+margin/bottom = -255.8
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+textures/normal = ExtResource( 66 )
+textures/pressed = ExtResource( 67 )
+textures/hover = ExtResource( 68 )
+params/resize_mode = 0
+params/scale = Vector2( 0.8, 0.8 )
+params/stretch_mode = 0
+
+[node name="resultado" type="TextureButton" parent="."]
+
+visibility/visible = false
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 768.0
+margin/top = -309.0
+margin/right = 963.2
+margin/bottom = -257.8
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+textures/normal = ExtResource( 69 )
+textures/pressed = ExtResource( 70 )
+textures/hover = ExtResource( 71 )
+params/resize_mode = 0
+params/scale = Vector2( 0.8, 0.8 )
+params/stretch_mode = 0
+
+[node name="Personagem0" type="Node2D" parent="."]
+
+editor/display_folded = true
+visibility/visible = false
+
+[node name="corpo" type="Sprite" parent="Personagem0"]
+
+editor/display_folded = true
+
+[node name="p_direita" type="Sprite" parent="Personagem0/corpo"]
+
+transform/pos = Vector2( 453.025, -142.226 )
+transform/scale = Vector2( 1.17914, 1.158 )
+texture = ExtResource( 72 )
+
+[node name="p_esquerda" type="Sprite" parent="Personagem0/corpo"]
+
+transform/pos = Vector2( 505.477, -145.404 )
+texture = ExtResource( 73 )
+
+[node name="b_direito" type="Sprite" parent="Personagem0/corpo"]
+
+transform/pos = Vector2( 394.228, -261.34 )
+texture = ExtResource( 74 )
+
+[node name="b_esquerdo" type="Sprite" parent="Personagem0/corpo"]
+
+transform/pos = Vector2( 536.71, -254.663 )
+texture = ExtResource( 75 )
+
+[node name="camisa" type="Sprite" parent="Personagem0/corpo"]
+
+transform/pos = Vector2( 475.293, -254.451 )
+transform/scale = Vector2( 0.520105, 0.520105 )
+texture = ExtResource( 76 )
+
+[node name="bermuda" type="Sprite" parent="Personagem0/corpo"]
+
+transform/pos = Vector2( 476.804, -180.654 )
+transform/scale = Vector2( 0.492103, 0.492103 )
+texture = ExtResource( 77 )
+
+[node name="cabecas" type="Sprite" parent="Personagem0"]
+
+editor/display_folded = true
+
+[node name="cabeca_1" type="Sprite" parent="Personagem0/cabecas"]
+
+transform/pos = Vector2( 459.087, -351.853 )
+transform/scale = Vector2( 0.503173, 0.503173 )
+texture = ExtResource( 78 )
+
+[node name="cabeca_2" type="Sprite" parent="Personagem0/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 462, -353.463 )
+transform/scale = Vector2( 0.503173, 0.503173 )
+texture = ExtResource( 79 )
+
+[node name="cabeca_3" type="Sprite" parent="Personagem0/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 461.825, -353.43 )
+transform/scale = Vector2( 0.503173, 0.503173 )
+texture = ExtResource( 80 )
+
+[node name="cabeca_4" type="Sprite" parent="Personagem0/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 462.392, -353.443 )
+transform/scale = Vector2( 0.503173, 0.503173 )
+texture = ExtResource( 81 )
+
+[node name="cabeca_5" type="Sprite" parent="Personagem0/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 461.365, -353.136 )
+transform/scale = Vector2( 0.503173, 0.503173 )
+texture = ExtResource( 82 )
+
+[node name="Personagem1" type="Node2D" parent="."]
+
+editor/display_folded = true
+visibility/visible = false
+
+[node name="corpo" type="Sprite" parent="Personagem1"]
+
+[node name="p_direita" type="Sprite" parent="Personagem1/corpo"]
+
+transform/pos = Vector2( 453.025, -142.226 )
+transform/scale = Vector2( 1.17914, 1.158 )
+texture = ExtResource( 72 )
+
+[node name="p_esquerda" type="Sprite" parent="Personagem1/corpo"]
+
+transform/pos = Vector2( 505.477, -145.404 )
+texture = ExtResource( 73 )
+
+[node name="b_direito" type="Sprite" parent="Personagem1/corpo"]
+
+transform/pos = Vector2( 394.228, -261.34 )
+texture = ExtResource( 74 )
+
+[node name="b_esquerdo" type="Sprite" parent="Personagem1/corpo"]
+
+transform/pos = Vector2( 536.71, -254.663 )
+texture = ExtResource( 75 )
+
+[node name="camisa" type="Sprite" parent="Personagem1/corpo"]
+
+transform/pos = Vector2( 474.151, -256.591 )
+transform/scale = Vector2( 0.495283, 0.495283 )
+texture = ExtResource( 83 )
+
+[node name="bermuda" type="Sprite" parent="Personagem1/corpo"]
+
+transform/pos = Vector2( 476.284, -186.616 )
+transform/scale = Vector2( 0.492067, 0.492067 )
+texture = ExtResource( 84 )
+
+[node name="cabecas" type="Sprite" parent="Personagem1"]
+
+editor/display_folded = true
+
+[node name="cabeca_1" type="Sprite" parent="Personagem1/cabecas"]
+
+transform/pos = Vector2( 460.764, -353.81 )
+transform/scale = Vector2( 0.506451, 0.506451 )
+texture = ExtResource( 85 )
+
+[node name="cabeca_2" type="Sprite" parent="Personagem1/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 460.764, -353.81 )
+transform/scale = Vector2( 0.506451, 0.506451 )
+texture = ExtResource( 86 )
+
+[node name="cabeca_3" type="Sprite" parent="Personagem1/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 460.764, -353.81 )
+transform/scale = Vector2( 0.506451, 0.506451 )
+texture = ExtResource( 87 )
+
+[node name="cabeca_4" type="Sprite" parent="Personagem1/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 460.764, -353.81 )
+transform/scale = Vector2( 0.506451, 0.506451 )
+texture = ExtResource( 88 )
+
+[node name="cabeca_5" type="Sprite" parent="Personagem1/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 460.764, -353.81 )
+transform/scale = Vector2( 0.506451, 0.506451 )
+texture = ExtResource( 89 )
+
+[node name="Personagem2" type="Node2D" parent="."]
+
+editor/display_folded = true
+visibility/visible = false
+
+[node name="corpo" type="Sprite" parent="Personagem2"]
+
+editor/display_folded = true
+
+[node name="p_direita" type="Sprite" parent="Personagem2/corpo"]
+
+transform/pos = Vector2( 453.025, -139.982 )
+transform/scale = Vector2( 1.17914, 1.08653 )
+texture = ExtResource( 72 )
+
+[node name="p_esquerda" type="Sprite" parent="Personagem2/corpo"]
+
+transform/pos = Vector2( 511.179, -141.958 )
+transform/scale = Vector2( 1, 0.885578 )
+texture = ExtResource( 73 )
+
+[node name="b_direito" type="Sprite" parent="Personagem2/corpo"]
+
+transform/pos = Vector2( 415.096, -266.345 )
+texture = ExtResource( 74 )
+
+[node name="b_esquerdo" type="Sprite" parent="Personagem2/corpo"]
+
+transform/pos = Vector2( 516.354, -264.976 )
+texture = ExtResource( 75 )
+
+[node name="camisa" type="Sprite" parent="Personagem2/corpo"]
+
+transform/pos = Vector2( 476.917, -262.212 )
+transform/scale = Vector2( 0.494642, 0.494642 )
+texture = ExtResource( 90 )
+
+[node name="bermuda" type="Sprite" parent="Personagem2/corpo"]
+
+transform/pos = Vector2( 479.485, -189.743 )
+transform/scale = Vector2( 0.479664, 0.479664 )
+texture = ExtResource( 91 )
+
+[node name="cabecas" type="Sprite" parent="Personagem2"]
+
+editor/display_folded = true
+
+[node name="cabeca_1" type="Sprite" parent="Personagem2/cabecas"]
+
+transform/pos = Vector2( 468.037, -349.482 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 92 )
+
+[node name="cabeca_2" type="Sprite" parent="Personagem2/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 468.421, -349.398 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 93 )
+
+[node name="cabeca_3" type="Sprite" parent="Personagem2/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 467.591, -350.409 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 94 )
+
+[node name="cabeca_4" type="Sprite" parent="Personagem2/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 468.087, -348.869 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 95 )
+
+[node name="cabeca_5" type="Sprite" parent="Personagem2/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 467.508, -349.115 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 96 )
+
+[node name="Personagem3" type="Node2D" parent="."]
+
+editor/display_folded = true
+visibility/visible = false
+
+[node name="corpo" type="Sprite" parent="Personagem3"]
+
+editor/display_folded = true
+
+[node name="p_direita" type="Sprite" parent="Personagem3/corpo"]
+
+transform/pos = Vector2( 453.025, -139.982 )
+transform/scale = Vector2( 1.17914, 1.08653 )
+texture = ExtResource( 72 )
+
+[node name="p_esquerda" type="Sprite" parent="Personagem3/corpo"]
+
+transform/pos = Vector2( 511.179, -141.958 )
+transform/scale = Vector2( 1, 0.885578 )
+texture = ExtResource( 73 )
+
+[node name="b_direito" type="Sprite" parent="Personagem3/corpo"]
+
+transform/pos = Vector2( 415.096, -266.345 )
+texture = ExtResource( 74 )
+
+[node name="b_esquerdo" type="Sprite" parent="Personagem3/corpo"]
+
+transform/pos = Vector2( 516.354, -264.976 )
+texture = ExtResource( 75 )
+
+[node name="camisa" type="Sprite" parent="Personagem3/corpo"]
+
+transform/pos = Vector2( 476.917, -262.212 )
+transform/scale = Vector2( 0.494642, 0.494642 )
+texture = ExtResource( 90 )
+
+[node name="bermuda" type="Sprite" parent="Personagem3/corpo"]
+
+transform/pos = Vector2( 479.485, -189.743 )
+transform/scale = Vector2( 0.479664, 0.479664 )
+texture = ExtResource( 97 )
+
+[node name="cabecas" type="Sprite" parent="Personagem3"]
+
+[node name="cabeca_1" type="Sprite" parent="Personagem3/cabecas"]
+
+transform/pos = Vector2( 468.037, -349.482 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 98 )
+
+[node name="cabeca_2" type="Sprite" parent="Personagem3/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 468.421, -349.398 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 99 )
+
+[node name="cabeca_3" type="Sprite" parent="Personagem3/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 467.591, -350.409 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 100 )
+
+[node name="cabeca_4" type="Sprite" parent="Personagem3/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 468.087, -348.869 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 101 )
+
+[node name="cabeca_5" type="Sprite" parent="Personagem3/cabecas"]
+
+visibility/visible = false
+transform/pos = Vector2( 467.508, -349.115 )
+transform/scale = Vector2( 0.543345, 0.543344 )
+texture = ExtResource( 102 )
+
+[node name="Control" type="Control" parent="."]
+
+visibility/visible = false
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 40.0
+script/script = ExtResource( 103 )
+
+[node name="bntA" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 441.0
+margin/top = 76.0
+margin/right = 513.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteA" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 477.658, 109.663 )
+texture = ExtResource( 105 )
+hframes = 3
+
+[node name="bntB" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 149.0
+margin/top = 76.0
+margin/right = 221.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteB" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 184.622, 108.872 )
+texture = ExtResource( 106 )
+hframes = 3
+
+[node name="bntC" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 806.0
+margin/top = 9.0
+margin/right = 878.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteC" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 841.629, 42.0852 )
+texture = ExtResource( 107 )
+hframes = 3
+
+[node name="bntD" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 295.0
+margin/top = 76.0
+margin/right = 367.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteD" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 330.691, 109.002 )
+texture = ExtResource( 108 )
+hframes = 3
+
+[node name="bntE" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 733.0
+margin/top = 9.0
+margin/right = 805.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteE" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 768.547, 42.1275 )
+texture = ExtResource( 109 )
+hframes = 3
+
+[node name="bntF" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 879.0
+margin/top = 76.0
+margin/right = 951.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteF" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 914.594, 109.399 )
+texture = ExtResource( 110 )
+hframes = 3
+
+[node name="bntG" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 368.0
+margin/top = 76.0
+margin/right = 440.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteG" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 404.333, 109.299 )
+texture = ExtResource( 111 )
+hframes = 3
+
+[node name="bntH" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 514.0
+margin/top = 9.0
+margin/right = 586.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteH" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 550.109, 41.9973 )
+texture = ExtResource( 112 )
+hframes = 3
+
+[node name="bntI" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 733.0
+margin/top = 76.0
+margin/right = 805.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteI" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 769.453, 109.865 )
+texture = ExtResource( 113 )
+hframes = 3
+
+[node name="bntJ" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 514.0
+margin/top = 76.0
+margin/right = 586.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteJ" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 549.613, 110.007 )
+texture = ExtResource( 114 )
+hframes = 3
+
+[node name="bntK" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 295.0
+margin/top = 9.0
+margin/right = 367.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteK" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 330.987, 42.6622 )
+texture = ExtResource( 115 )
+hframes = 3
+
+[node name="bntL" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 149.0
+margin/top = 9.0
+margin/right = 221.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteL" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 184.815, 42.3044 )
+texture = ExtResource( 116 )
+hframes = 3
+
+[node name="bntM" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 76.0
+margin/top = 76.0
+margin/right = 148.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteM" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 111.867, 108.9 )
+texture = ExtResource( 117 )
+hframes = 3
+
+[node name="bntN" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 806.0
+margin/top = 76.0
+margin/right = 878.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteN" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 842.192, 109.545 )
+texture = ExtResource( 118 )
+hframes = 3
+
+[node name="bntO" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 879.0
+margin/top = 9.0
+margin/right = 951.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteO" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 914.327, 41.9566 )
+texture = ExtResource( 119 )
+hframes = 3
+
+[node name="bntP" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 76.0
+margin/top = 9.0
+margin/right = 148.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteP" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 112.258, 42.379 )
+texture = ExtResource( 120 )
+hframes = 3
+
+[node name="bntQ" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 222.0
+margin/top = 76.0
+margin/right = 294.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteQ" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 257.541, 108.997 )
+texture = ExtResource( 121 )
+hframes = 3
+
+[node name="bntR" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 222.0
+margin/top = 9.0
+margin/right = 294.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteR" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 257.822, 41.35 )
+texture = ExtResource( 122 )
+hframes = 3
+
+[node name="bntS" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 441.0
+margin/top = 9.0
+margin/right = 513.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteS" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 477.129, 41.6431 )
+texture = ExtResource( 123 )
+hframes = 3
+
+[node name="bntT" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 3.0
+margin/top = 9.0
+margin/right = 75.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteT" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 39.3665, 41.9335 )
+texture = ExtResource( 124 )
+hframes = 3
+
+[node name="bntU" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 660.0
+margin/top = 9.0
+margin/right = 732.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteU" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 695.418, 41.2604 )
+texture = ExtResource( 125 )
+hframes = 3
+
+[node name="bntV" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 587.0
+margin/top = 76.0
+margin/right = 659.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteV" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 623.352, 108.8 )
+texture = ExtResource( 126 )
+hframes = 3
+
+[node name="bntW" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 660.0
+margin/top = 76.0
+margin/right = 732.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteW" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 696.014, 109.324 )
+texture = ExtResource( 127 )
+hframes = 3
+
+[node name="bntX" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 587.0
+margin/top = 9.0
+margin/right = 659.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteX" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 622.889, 42.1684 )
+texture = ExtResource( 128 )
+hframes = 3
+
+[node name="bntY" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 3.0
+margin/top = 76.0
+margin/right = 75.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteY" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 39.7342, 109.435 )
+texture = ExtResource( 129 )
+hframes = 3
+
+[node name="bntZ" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 368.0
+margin/top = 9.0
+margin/right = 440.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="spriteZ" parent="Control" instance=ExtResource( 104 )]
+
+transform/pos = Vector2( 404.074, 43.121 )
+texture = ExtResource( 130 )
+hframes = 3
+
+[node name="Panel" type="Panel" parent="Control"]
+
+editor/display_folded = true
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 149.0
+margin/top = -85.0
+margin/right = 806.0
+margin/bottom = -3.0
+
+[node name="palavra" type="Label" parent="Control/Panel"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 16.0
+margin/top = 17.0
+margin/right = 640.0
+margin/bottom = 67.0
+custom_fonts/font = ExtResource( 131 )
+custom_constants/shadow_offset_x = 0
+custom_constants/line_spacing = 0
+align = 1
+valign = 1
+uppercase = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Panel1" type="Panel" parent="Control"]
+
+editor/display_folded = true
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 149.0
+margin/top = -121.0
+margin/right = 805.0
+margin/bottom = -89.0
+
+[node name="dica" type="Label" parent="Control/Panel1"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 17.0
+margin/top = 4.0
+margin/right = 635.0
+margin/bottom = 26.0
+custom_fonts/font = ExtResource( 132 )
+custom_constants/shadow_offset_x = 0
+custom_constants/line_spacing = 0
+align = 1
+valign = 1
+uppercase = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="acertos" parent="Control" instance=ExtResource( 133 )]
+
+margin/left = -24.0
+margin/top = -393.0
+margin/right = 126.0
+margin/bottom = -363.0
+custom_colors/font_color_shadow = Color( 1, 1, 1, 1 )
+custom_constants/shadow_offset_x = 2
+text = "Acertos: 0"
+
+[node name="erros" parent="Control" instance=ExtResource( 134 )]
+
+margin/left = 2.0
+margin/top = -367.0
+margin/right = 126.0
+margin/bottom = -337.0
+custom_colors/font_color_shadow = Color( 1, 1, 1, 1 )
+custom_constants/shadow_offset_x = 2
+text = "Erros: 0"
+
+[connection signal="pressed" from="ParallaxBackground/body_1" to="Control" method="_on_body_1_pressed"]
+
+[connection signal="pressed" from="ParallaxBackground/body_2" to="Control" method="_on_body_2_pressed"]
+
+[connection signal="pressed" from="ParallaxBackground/girl_1" to="Control" method="_on_girl_1_pressed"]
+
+[connection signal="pressed" from="ParallaxBackground/girl_2" to="Control" method="_on_girl_2_pressed"]
+
+[connection signal="pressed" from="ParallaxBackground/voltar_tela2" to="Control" method="_on_voltar_tela2_pressed"]
+
+[connection signal="pressed" from="play" to="Control" method="_on_play_pressed"]
+
+[connection signal="pressed" from="voltar" to="Control" method="_on_voltar_pressed"]
+
+[connection signal="pressed" from="resultado" to="Control" method="_on_resultado_pressed"]
+
+[connection signal="pressed" from="Control/bntA" to="Control" method="_on_bntA_pressed"]
+
+[connection signal="pressed" from="Control/bntB" to="Control" method="_on_bntB_pressed"]
+
+[connection signal="pressed" from="Control/bntC" to="Control" method="_on_bntC_pressed"]
+
+[connection signal="pressed" from="Control/bntD" to="Control" method="_on_bntD_pressed"]
+
+[connection signal="pressed" from="Control/bntE" to="Control" method="_on_bntE_pressed"]
+
+[connection signal="pressed" from="Control/bntF" to="Control" method="_on_bntF_pressed"]
+
+[connection signal="pressed" from="Control/bntG" to="Control" method="_on_bntG_pressed"]
+
+[connection signal="pressed" from="Control/bntH" to="Control" method="_on_bntH_pressed"]
+
+[connection signal="pressed" from="Control/bntI" to="Control" method="_on_bntI_pressed"]
+
+[connection signal="pressed" from="Control/bntJ" to="Control" method="_on_bntJ_pressed"]
+
+[connection signal="pressed" from="Control/bntK" to="Control" method="_on_bntK_pressed"]
+
+[connection signal="pressed" from="Control/bntL" to="Control" method="_on_bntL_pressed"]
+
+[connection signal="pressed" from="Control/bntM" to="Control" method="_on_bntM_pressed"]
+
+[connection signal="pressed" from="Control/bntN" to="Control" method="_on_bntN_pressed"]
+
+[connection signal="pressed" from="Control/bntO" to="Control" method="_on_bntO_pressed"]
+
+[connection signal="pressed" from="Control/bntP" to="Control" method="_on_bntP_pressed"]
+
+[connection signal="pressed" from="Control/bntQ" to="Control" method="_on_bntQ_pressed"]
+
+[connection signal="pressed" from="Control/bntR" to="Control" method="_on_bntR_pressed"]
+
+[connection signal="pressed" from="Control/bntS" to="Control" method="_on_bntS_pressed"]
+
+[connection signal="pressed" from="Control/bntT" to="Control" method="_on_bntT_pressed"]
+
+[connection signal="pressed" from="Control/bntU" to="Control" method="_on_bntU_pressed"]
+
+[connection signal="pressed" from="Control/bntV" to="Control" method="_on_bntV_pressed"]
+
+[connection signal="pressed" from="Control/bntW" to="Control" method="_on_bntW_pressed"]
+
+[connection signal="pressed" from="Control/bntX" to="Control" method="_on_bntX_pressed"]
+
+[connection signal="pressed" from="Control/bntY" to="Control" method="_on_bntY_pressed"]
+
+[connection signal="pressed" from="Control/bntZ" to="Control" method="_on_bntZ_pressed"]
+
+
+[editable path="ParallaxBackground"]
