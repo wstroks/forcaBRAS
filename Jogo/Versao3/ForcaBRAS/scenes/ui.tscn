@@ -1,7 +1,7 @@
-[gd_scene load_steps=13 format=1]
+[gd_scene load_steps=12 format=1]
 
 [ext_resource path="res://scripts/tela.gd" type="Script" id=1]
-[ext_resource path="res://img/menu_itens/menu_2.png" type="Texture" id=2]
+[ext_resource path="res://img/menu_itens/TelaIncial.png" type="Texture" id=2]
 [ext_resource path="res://img/menu_itens/play.png" type="Texture" id=3]
 [ext_resource path="res://img/menu_itens/play_pressed.png" type="Texture" id=4]
 [ext_resource path="res://img/menu_itens/play_hover.png" type="Texture" id=5]
@@ -11,7 +11,6 @@
 [ext_resource path="res://img/menu_itens/sair_amarelo.png" type="Texture" id=9]
 [ext_resource path="res://img/menu_itens/sair_vermelho.png" type="Texture" id=10]
 [ext_resource path="res://img/menu_itens/sair_azul.png" type="Texture" id=11]
-[ext_resource path="res://img/menu_itens/titulo.png" type="Texture" id=12]
 
 [node name="tela" type="EventPlayer"]
 
@@ -51,9 +50,9 @@ focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
 margin/left = 0.0
-margin/top = 0.0
-margin/right = 1025.0
-margin/bottom = 641.0
+margin/top = -17.0
+margin/right = 1026.0
+margin/bottom = 624.0
 texture = ExtResource( 2 )
 stretch_mode = 0
 
@@ -113,19 +112,6 @@ textures/pressed = ExtResource( 10 )
 textures/hover = ExtResource( 11 )
 params/resize_mode = 0
 params/stretch_mode = 0
-
-[node name="TextureFrame" type="TextureFrame" parent="."]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 102.0
-margin/top = 7.0
-margin/right = 803.0
-margin/bottom = 152.0
-texture = ExtResource( 12 )
-stretch_mode = 0
 
 [connection signal="pressed" from="jogar" to="." method="_on_jogar_pressed"]
 

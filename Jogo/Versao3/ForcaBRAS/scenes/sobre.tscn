@@ -1,14 +1,10 @@
-[gd_scene load_steps=10 format=1]
+[gd_scene load_steps=6 format=1]
 
 [ext_resource path="res://scripts/sobre.gd" type="Script" id=1]
-[ext_resource path="res://img/menu_itens/inicia.png" type="Texture" id=2]
-[ext_resource path="res://img/menu_itens/girl_.png" type="Texture" id=3]
-[ext_resource path="res://img/menu_itens/boy_logo_LEnDA.png" type="Texture" id=4]
-[ext_resource path="res://img/menu_itens/titulo.png" type="Texture" id=5]
-[ext_resource path="res://FonteSobre.fnt" type="BitmapFont" id=6]
-[ext_resource path="res://img/menu_itens/voltar_amarelo.png" type="Texture" id=7]
-[ext_resource path="res://img/menu_itens/voltar_vermelho.png" type="Texture" id=8]
-[ext_resource path="res://img/menu_itens/voltar_azul.png" type="Texture" id=9]
+[ext_resource path="res://img/menu_itens/TelaSobre.png" type="Texture" id=2]
+[ext_resource path="res://img/menu_itens/voltar_amarelo.png" type="Texture" id=3]
+[ext_resource path="res://img/menu_itens/voltar_vermelho.png" type="Texture" id=4]
+[ext_resource path="res://img/menu_itens/voltar_azul.png" type="Texture" id=5]
 
 [node name="sobre" type="EventPlayer"]
 
@@ -48,125 +44,11 @@ focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
 margin/left = 0.0
-margin/top = 0.0
-margin/right = 1025.0
-margin/bottom = 613.0
+margin/top = -2.0
+margin/right = 1026.0
+margin/bottom = 612.0
 texture = ExtResource( 2 )
 stretch_mode = 0
-
-[node name="girl" type="TextureFrame" parent="ParallaxBackground/ParallaxLayer"]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 13.0
-margin/top = 359.0
-margin/right = 146.0
-margin/bottom = 581.0
-texture = ExtResource( 3 )
-stretch_mode = 0
-
-[node name="boy_logo" type="TextureFrame" parent="ParallaxBackground/ParallaxLayer"]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 839.0
-margin/top = 340.0
-margin/right = 995.0
-margin/bottom = 595.0
-texture = ExtResource( 4 )
-stretch_mode = 0
-
-[node name="TextureFrame 2" type="TextureFrame" parent="ParallaxBackground/ParallaxLayer"]
-
-rect/scale = Vector2( 0.9, 0.9 )
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 199.0
-margin/top = 19.0
-margin/right = 900.0
-margin/bottom = 164.0
-texture = ExtResource( 5 )
-stretch_mode = 0
-
-[node name="Texto" type="Label" parent="ParallaxBackground"]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 0
-margin/left = 44.0
-margin/top = 161.0
-margin/right = 989.0
-margin/bottom = 356.0
-custom_fonts/font = ExtResource( 6 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "O  ForcaBras  surgiu na disciplina de  Jogos  Digitais ministrado pelo professor Victor
-T. Sarinho  e tem como intuito o ensino para crianças no alfabeto em  libras de forma  
-lúdica. Apesar do foco principal ser o ensino para crianças, nada impede que adultos
-e adolescentes  joguem.  Caso deseje  enviar algum  feedback  entre em contato com
-os  desenvolvedores.  Esperamos que  tenha  uma  boa  experiência com  o ForcaBRAS
-
-"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-
-[node name="Desenvolvedores" type="Label" parent="ParallaxBackground"]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 0
-margin/left = 409.0
-margin/top = 364.0
-margin/right = 594.0
-margin/bottom = 394.0
-custom_fonts/font = ExtResource( 6 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Desenvolvedores:"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-
-[node name="contato_1" type="Label" parent="ParallaxBackground"]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 0
-margin/left = 239.0
-margin/top = 415.0
-margin/right = 764.0
-margin/bottom = 445.0
-custom_fonts/font = ExtResource( 6 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Lenington do Carmo Rios - lenitorios@gmail.com"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-
-[node name="contato_2" type="Label" parent="ParallaxBackground"]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 0
-margin/left = 238.0
-margin/top = 450.0
-margin/right = 771.0
-margin/bottom = 480.0
-custom_fonts/font = ExtResource( 6 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Washington Pagotto Batista - wstroks@gmail.com"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
 
 [node name="TextureButton" type="TextureButton" parent="."]
 
@@ -181,9 +63,9 @@ margin/bottom = 578.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
-textures/normal = ExtResource( 7 )
-textures/pressed = ExtResource( 8 )
-textures/hover = ExtResource( 9 )
+textures/normal = ExtResource( 3 )
+textures/pressed = ExtResource( 4 )
+textures/hover = ExtResource( 5 )
 params/resize_mode = 0
 params/stretch_mode = 0
 
