@@ -2,14 +2,14 @@
 
 [ext_resource path="res://scripts/tela.gd" type="Script" id=1]
 [ext_resource path="res://img/menu_itens/TelaIncial.png" type="Texture" id=2]
-[ext_resource path="res://img/menu_itens/play.png" type="Texture" id=3]
-[ext_resource path="res://img/menu_itens/play_pressed.png" type="Texture" id=4]
-[ext_resource path="res://img/menu_itens/play_hover.png" type="Texture" id=5]
-[ext_resource path="res://img/menu_itens/sobre.png" type="Texture" id=6]
-[ext_resource path="res://img/menu_itens/sobre_pressed.PNG" type="Texture" id=7]
-[ext_resource path="res://img/menu_itens/sobre_hover.PNG" type="Texture" id=8]
-[ext_resource path="res://img/menu_itens/sair_amarelo.png" type="Texture" id=9]
-[ext_resource path="res://img/menu_itens/sair_vermelho.png" type="Texture" id=10]
+[ext_resource path="res://img/menu_itens/Jogar_normal.png" type="Texture" id=3]
+[ext_resource path="res://img/menu_itens/jogar_laranja.png" type="Texture" id=4]
+[ext_resource path="res://img/menu_itens/jogar_azul.png" type="Texture" id=5]
+[ext_resource path="res://img/menu_itens/sobre_normal.png" type="Texture" id=6]
+[ext_resource path="res://img/menu_itens/sobre_laranja.png" type="Texture" id=7]
+[ext_resource path="res://img/menu_itens/sobre_azul.png" type="Texture" id=8]
+[ext_resource path="res://img/menu_itens/sair_normal.png" type="Texture" id=9]
+[ext_resource path="res://img/menu_itens/sair_laranja.png" type="Texture" id=10]
 [ext_resource path="res://img/menu_itens/sair_azul.png" type="Texture" id=11]
 
 [node name="tela" type="EventPlayer"]
@@ -49,11 +49,12 @@ focus/ignore_mouse = true
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 0.0
-margin/top = -17.0
-margin/right = 1026.0
-margin/bottom = 624.0
+margin/left = -1.0
+margin/top = 0.0
+margin/right = 1025.0
+margin/bottom = 605.0
 texture = ExtResource( 2 )
+expand = true
 stretch_mode = 0
 
 [node name="jogar" type="TextureButton" parent="."]
@@ -62,10 +63,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 659.0
-margin/top = 216.0
-margin/right = 903.0
-margin/bottom = 280.0
+margin/left = 563.0
+margin/top = 172.0
+margin/right = 882.0
+margin/bottom = 321.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -81,10 +82,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 660.0
-margin/top = 315.0
-margin/right = 904.0
-margin/bottom = 379.0
+margin/left = 601.0
+margin/top = 336.0
+margin/right = 854.0
+margin/bottom = 455.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -100,10 +101,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 657.0
-margin/top = 412.0
-margin/right = 901.0
-margin/bottom = 476.0
+margin/left = 606.0
+margin/top = 464.0
+margin/right = 859.0
+margin/bottom = 582.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null

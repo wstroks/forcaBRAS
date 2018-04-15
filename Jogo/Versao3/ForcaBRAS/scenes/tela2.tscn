@@ -2,14 +2,14 @@
 
 [ext_resource path="res://scripts/tela2.gd" type="Script" id=1]
 [ext_resource path="res://img/menu_itens/TelaNivel.png" type="Texture" id=2]
-[ext_resource path="res://img/menu_itens/normal_amarelo.png" type="Texture" id=3]
-[ext_resource path="res://img/menu_itens/normal_vermelho.png" type="Texture" id=4]
+[ext_resource path="res://img/menu_itens/normal.png" type="Texture" id=3]
+[ext_resource path="res://img/menu_itens/normal_laranja.png" type="Texture" id=4]
 [ext_resource path="res://img/menu_itens/normal_azul.png" type="Texture" id=5]
-[ext_resource path="res://img/menu_itens/dificil_amarelol.png" type="Texture" id=6]
-[ext_resource path="res://img/menu_itens/dificil_vermelho.png" type="Texture" id=7]
-[ext_resource path="res://img/menu_itens/dificil_azull.png" type="Texture" id=8]
-[ext_resource path="res://img/menu_itens/voltar_amarelo.png" type="Texture" id=9]
-[ext_resource path="res://img/menu_itens/voltar_vermelho.png" type="Texture" id=10]
+[ext_resource path="res://img/menu_itens/dificil_normal.png" type="Texture" id=6]
+[ext_resource path="res://img/menu_itens/dificil_laranja.png" type="Texture" id=7]
+[ext_resource path="res://img/menu_itens/dificil_azul.png" type="Texture" id=8]
+[ext_resource path="res://img/menu_itens/voltar_normal.png" type="Texture" id=9]
+[ext_resource path="res://img/menu_itens/voltar_laranja.png" type="Texture" id=10]
 [ext_resource path="res://img/menu_itens/voltar_azul.png" type="Texture" id=11]
 
 [node name="tela2" type="EventPlayer"]
@@ -62,10 +62,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 388.0
-margin/top = 190.0
-margin/right = 632.0
-margin/bottom = 254.0
+margin/left = 339.0
+margin/top = 169.0
+margin/right = 658.0
+margin/bottom = 318.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -81,10 +81,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 390.0
-margin/top = 273.0
-margin/right = 634.0
-margin/bottom = 337.0
+margin/left = 347.0
+margin/top = 324.0
+margin/right = 666.0
+margin/bottom = 473.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -103,7 +103,7 @@ size_flags/vertical = 2
 margin/left = 399.0
 margin/top = 508.0
 margin/right = 643.0
-margin/bottom = 572.0
+margin/bottom = 597.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
