@@ -4,50 +4,50 @@
 [ext_resource path="res://img/menu_itens/TelaJogo.png" type="Texture" id=2]
 [ext_resource path="res://img/menu_itens/sol_1.png" type="Texture" id=3]
 [ext_resource path="res://img/menu_itens/sol_2.png" type="Texture" id=4]
-[ext_resource path="res://img/menu_itens/others/caracol_2.tex" type="Texture" id=5]
-[ext_resource path="res://img/menu_itens/others/abelha_1.tex" type="Texture" id=6]
-[ext_resource path="res://img/menu_itens/others/abelha_2.tex" type="Texture" id=7]
-[ext_resource path="res://img/menu_itens/others/cachorro_1.tex" type="Texture" id=8]
-[ext_resource path="res://img/menu_itens/others/cachorro_2.tex" type="Texture" id=9]
-[ext_resource path="res://img/menu_itens/others/cachorro_3.tex" type="Texture" id=10]
-[ext_resource path="res://img/menu_itens/others/cachorro_4.tex" type="Texture" id=11]
-[ext_resource path="res://img/menu_itens/others/cachorro_5.tex" type="Texture" id=12]
-[ext_resource path="res://img/menu_itens/others/cachorro_6.tex" type="Texture" id=13]
-[ext_resource path="res://img/menu_itens/others/cachorro_7.tex" type="Texture" id=14]
-[ext_resource path="res://img/menu_itens/others/cachorro_8.tex" type="Texture" id=15]
-[ext_resource path="res://img/menu_itens/others/borboleta_1.tex" type="Texture" id=16]
-[ext_resource path="res://img/menu_itens/others/borboleta_2.tex" type="Texture" id=17]
-[ext_resource path="res://img/menu_itens/others/guaxi_1.tex" type="Texture" id=18]
-[ext_resource path="res://img/menu_itens/others/guaxi_2.tex" type="Texture" id=19]
-[ext_resource path="res://img/menu_itens/others/guaxi_3.tex" type="Texture" id=20]
-[ext_resource path="res://img/menu_itens/others/guaxi_4.tex" type="Texture" id=21]
-[ext_resource path="res://img/menu_itens/others/guaxi_5.tex" type="Texture" id=22]
-[ext_resource path="res://img/menu_itens/others/guaxi_6.tex" type="Texture" id=23]
-[ext_resource path="res://img/menu_itens/others/guaxi_7.tex" type="Texture" id=24]
-[ext_resource path="res://img/menu_itens/others/guaxi_8.tex" type="Texture" id=25]
-[ext_resource path="res://img/menu_itens/others/guaxi_9.tex" type="Texture" id=26]
-[ext_resource path="res://img/menu_itens/others/guaxi_10.tex" type="Texture" id=27]
-[ext_resource path="res://img/menu_itens/others/guaxi_11.tex" type="Texture" id=28]
-[ext_resource path="res://img/menu_itens/others/borboleta_3.tex" type="Texture" id=29]
-[ext_resource path="res://img/menu_itens/others/borboleta_4.tex" type="Texture" id=30]
-[ext_resource path="res://img/menu_itens/others/passaro_1.tex" type="Texture" id=31]
-[ext_resource path="res://img/menu_itens/others/passaro_2.tex" type="Texture" id=32]
-[ext_resource path="res://img/menu_itens/others/passaro_3.tex" type="Texture" id=33]
-[ext_resource path="res://img/menu_itens/others/passaro_4.tex" type="Texture" id=34]
-[ext_resource path="res://img/menu_itens/others/passaro_5.tex" type="Texture" id=35]
-[ext_resource path="res://img/menu_itens/others/gato_1.tex" type="Texture" id=36]
-[ext_resource path="res://img/menu_itens/others/gato_2.tex" type="Texture" id=37]
-[ext_resource path="res://img/menu_itens/others/gato_3.tex" type="Texture" id=38]
-[ext_resource path="res://img/menu_itens/others/gato_4.tex" type="Texture" id=39]
-[ext_resource path="res://img/menu_itens/others/gato_5.tex" type="Texture" id=40]
-[ext_resource path="res://img/menu_itens/others/gato_6.tex" type="Texture" id=41]
-[ext_resource path="res://img/menu_itens/others/gato_7.tex" type="Texture" id=42]
-[ext_resource path="res://img/menu_itens/others/gato_8.tex" type="Texture" id=43]
-[ext_resource path="res://img/menu_itens/others/gato_9.tex" type="Texture" id=44]
-[ext_resource path="res://img/menu_itens/others/pato.tex" type="Texture" id=45]
-[ext_resource path="res://img/menu_itens/others/pato_1.tex" type="Texture" id=46]
-[ext_resource path="res://img/menu_itens/others/pato_2.tex" type="Texture" id=47]
-[ext_resource path="res://img/menu_itens/others/pato_3.tex" type="Texture" id=48]
+[ext_resource path="res://img/menu_itens/others/pato.tex" type="Texture" id=5]
+[ext_resource path="res://img/menu_itens/others/pato_1.tex" type="Texture" id=6]
+[ext_resource path="res://img/menu_itens/others/pato_2.tex" type="Texture" id=7]
+[ext_resource path="res://img/menu_itens/others/pato_3.tex" type="Texture" id=8]
+[ext_resource path="res://img/menu_itens/others/cachorro_1.tex" type="Texture" id=9]
+[ext_resource path="res://img/menu_itens/others/cachorro_2.tex" type="Texture" id=10]
+[ext_resource path="res://img/menu_itens/others/cachorro_3.tex" type="Texture" id=11]
+[ext_resource path="res://img/menu_itens/others/cachorro_4.tex" type="Texture" id=12]
+[ext_resource path="res://img/menu_itens/others/cachorro_5.tex" type="Texture" id=13]
+[ext_resource path="res://img/menu_itens/others/cachorro_6.tex" type="Texture" id=14]
+[ext_resource path="res://img/menu_itens/others/cachorro_7.tex" type="Texture" id=15]
+[ext_resource path="res://img/menu_itens/others/cachorro_8.tex" type="Texture" id=16]
+[ext_resource path="res://img/menu_itens/others/abelha_1.tex" type="Texture" id=17]
+[ext_resource path="res://img/menu_itens/others/abelha_2.tex" type="Texture" id=18]
+[ext_resource path="res://img/menu_itens/others/borboleta_1.tex" type="Texture" id=19]
+[ext_resource path="res://img/menu_itens/others/borboleta_2.tex" type="Texture" id=20]
+[ext_resource path="res://img/menu_itens/others/borboleta_3.tex" type="Texture" id=21]
+[ext_resource path="res://img/menu_itens/others/borboleta_4.tex" type="Texture" id=22]
+[ext_resource path="res://img/menu_itens/others/gato_1.tex" type="Texture" id=23]
+[ext_resource path="res://img/menu_itens/others/gato_2.tex" type="Texture" id=24]
+[ext_resource path="res://img/menu_itens/others/gato_3.tex" type="Texture" id=25]
+[ext_resource path="res://img/menu_itens/others/gato_4.tex" type="Texture" id=26]
+[ext_resource path="res://img/menu_itens/others/gato_5.tex" type="Texture" id=27]
+[ext_resource path="res://img/menu_itens/others/gato_6.tex" type="Texture" id=28]
+[ext_resource path="res://img/menu_itens/others/gato_7.tex" type="Texture" id=29]
+[ext_resource path="res://img/menu_itens/others/gato_8.tex" type="Texture" id=30]
+[ext_resource path="res://img/menu_itens/others/gato_9.tex" type="Texture" id=31]
+[ext_resource path="res://img/menu_itens/others/guaxi_1.tex" type="Texture" id=32]
+[ext_resource path="res://img/menu_itens/others/guaxi_2.tex" type="Texture" id=33]
+[ext_resource path="res://img/menu_itens/others/guaxi_3.tex" type="Texture" id=34]
+[ext_resource path="res://img/menu_itens/others/guaxi_4.tex" type="Texture" id=35]
+[ext_resource path="res://img/menu_itens/others/guaxi_5.tex" type="Texture" id=36]
+[ext_resource path="res://img/menu_itens/others/guaxi_6.tex" type="Texture" id=37]
+[ext_resource path="res://img/menu_itens/others/guaxi_7.tex" type="Texture" id=38]
+[ext_resource path="res://img/menu_itens/others/guaxi_8.tex" type="Texture" id=39]
+[ext_resource path="res://img/menu_itens/others/guaxi_9.tex" type="Texture" id=40]
+[ext_resource path="res://img/menu_itens/others/guaxi_10.tex" type="Texture" id=41]
+[ext_resource path="res://img/menu_itens/others/guaxi_11.tex" type="Texture" id=42]
+[ext_resource path="res://img/menu_itens/others/passaro_1.tex" type="Texture" id=43]
+[ext_resource path="res://img/menu_itens/others/passaro_2.tex" type="Texture" id=44]
+[ext_resource path="res://img/menu_itens/others/passaro_3.tex" type="Texture" id=45]
+[ext_resource path="res://img/menu_itens/others/passaro_4.tex" type="Texture" id=46]
+[ext_resource path="res://img/menu_itens/others/passaro_5.tex" type="Texture" id=47]
+[ext_resource path="res://img/menu_itens/others/caracol_2.tex" type="Texture" id=48]
 [ext_resource path="res://scripts/SpriteAnimated.gd" type="Script" id=49]
 [ext_resource path="res://scripts/move.gd" type="Script" id=50]
 [ext_resource path="res://img/menu_itens/nuvem_1.png" type="Texture" id=51]
@@ -55,38 +55,38 @@
 [ext_resource path="res://img/menu_itens/nuvem_2.png" type="Texture" id=53]
 [ext_resource path="res://img/menu_itens/nuvem_3.png" type="Texture" id=54]
 [ext_resource path="res://img/menu_itens/arvore.png" type="Texture" id=55]
-[ext_resource path="res://img/menu_itens/TextoPersonagens.png" type="Texture" id=56]
-[ext_resource path="res://img/menu_itens/PARABENS.png" type="Texture" id=57]
-[ext_resource path="res://img/menu_itens/Perdeu.png" type="Texture" id=58]
-[ext_resource path="res://img/menu_itens/fim.png" type="Texture" id=59]
-[ext_resource path="res://img/body_1.tscn" type="PackedScene" id=60]
-[ext_resource path="res://img/menu_itens/menina1_normal.png" type="Texture" id=61]
-[ext_resource path="res://img/menu_itens/menina1_laranja.png" type="Texture" id=62]
-[ext_resource path="res://img/menu_itens/menina1_azul.png" type="Texture" id=63]
-[ext_resource path="res://img/body_2.tscn" type="PackedScene" id=64]
-[ext_resource path="res://img/menu_itens/menino1_normal.png" type="Texture" id=65]
-[ext_resource path="res://img/menu_itens/menino1_laranja.png" type="Texture" id=66]
-[ext_resource path="res://img/menu_itens/menino1_azul.png" type="Texture" id=67]
-[ext_resource path="res://img/girl_1.tscn" type="PackedScene" id=68]
-[ext_resource path="res://img/menu_itens/menina2_normal.png" type="Texture" id=69]
-[ext_resource path="res://img/menu_itens/menina2_laranja.png" type="Texture" id=70]
-[ext_resource path="res://img/menu_itens/menina2_azul.png" type="Texture" id=71]
-[ext_resource path="res://img/girl_2.tscn" type="PackedScene" id=72]
-[ext_resource path="res://img/menu_itens/menino2_normal.png" type="Texture" id=73]
-[ext_resource path="res://img/menu_itens/menino2_laranja.png" type="Texture" id=74]
-[ext_resource path="res://img/menu_itens/menino2_azul.png" type="Texture" id=75]
-[ext_resource path="res://img/voltar.tscn" type="PackedScene" id=76]
-[ext_resource path="res://img/menu_itens/voltar_normal.png" type="Texture" id=77]
-[ext_resource path="res://img/menu_itens/voltar_laranja.png" type="Texture" id=78]
-[ext_resource path="res://play.tscn" type="PackedScene" id=79]
-[ext_resource path="res://img/menu_itens/Jogar_normal.png" type="Texture" id=80]
-[ext_resource path="res://img/menu_itens/jogar_laranja.png" type="Texture" id=81]
-[ext_resource path="res://img/menu_itens/jogar_azul.png" type="Texture" id=82]
-[ext_resource path="res://img/menu_itens/voltar_azul.png" type="Texture" id=83]
-[ext_resource path="res://img/menu_itens/RESULTADO_AMARELO.png" type="Texture" id=84]
-[ext_resource path="res://img/menu_itens/RESULTADO_VERMELHO.png" type="Texture" id=85]
-[ext_resource path="res://img/menu_itens/RESULTADO_AZUL.png" type="Texture" id=86]
-[ext_resource path="res://img/menu_itens/nuvem.png" type="Texture" id=87]
+[ext_resource path="res://img/menu_itens/nuvem.png" type="Texture" id=56]
+[ext_resource path="res://img/menu_itens/TextoPersonagens.png" type="Texture" id=57]
+[ext_resource path="res://img/menu_itens/PARABENS.png" type="Texture" id=58]
+[ext_resource path="res://img/menu_itens/Perdeu.png" type="Texture" id=59]
+[ext_resource path="res://img/menu_itens/fim.png" type="Texture" id=60]
+[ext_resource path="res://img/body_1.tscn" type="PackedScene" id=61]
+[ext_resource path="res://img/menu_itens/menina1_normal.png" type="Texture" id=62]
+[ext_resource path="res://img/menu_itens/menina1_laranja.png" type="Texture" id=63]
+[ext_resource path="res://img/menu_itens/menina1_azul.png" type="Texture" id=64]
+[ext_resource path="res://img/body_2.tscn" type="PackedScene" id=65]
+[ext_resource path="res://img/menu_itens/menino1_normal.png" type="Texture" id=66]
+[ext_resource path="res://img/menu_itens/menino1_laranja.png" type="Texture" id=67]
+[ext_resource path="res://img/menu_itens/menino1_azul.png" type="Texture" id=68]
+[ext_resource path="res://img/girl_1.tscn" type="PackedScene" id=69]
+[ext_resource path="res://img/menu_itens/menina2_normal.png" type="Texture" id=70]
+[ext_resource path="res://img/menu_itens/menina2_laranja.png" type="Texture" id=71]
+[ext_resource path="res://img/menu_itens/menina2_azul.png" type="Texture" id=72]
+[ext_resource path="res://img/girl_2.tscn" type="PackedScene" id=73]
+[ext_resource path="res://img/menu_itens/menino2_normal.png" type="Texture" id=74]
+[ext_resource path="res://img/menu_itens/menino2_laranja.png" type="Texture" id=75]
+[ext_resource path="res://img/menu_itens/menino2_azul.png" type="Texture" id=76]
+[ext_resource path="res://img/voltar.tscn" type="PackedScene" id=77]
+[ext_resource path="res://img/menu_itens/voltar_normal.png" type="Texture" id=78]
+[ext_resource path="res://img/menu_itens/voltar_laranja.png" type="Texture" id=79]
+[ext_resource path="res://play.tscn" type="PackedScene" id=80]
+[ext_resource path="res://img/menu_itens/Jogar_normal.png" type="Texture" id=81]
+[ext_resource path="res://img/menu_itens/jogar_laranja.png" type="Texture" id=82]
+[ext_resource path="res://img/menu_itens/jogar_azul.png" type="Texture" id=83]
+[ext_resource path="res://img/menu_itens/voltar_azul.png" type="Texture" id=84]
+[ext_resource path="res://img/menu_itens/RESULTADO_AMARELO.png" type="Texture" id=85]
+[ext_resource path="res://img/menu_itens/RESULTADO_VERMELHO.png" type="Texture" id=86]
+[ext_resource path="res://img/menu_itens/RESULTADO_AZUL.png" type="Texture" id=87]
 [ext_resource path="res://img/personagens/boy_1/perna_direita.png" type="Texture" id=88]
 [ext_resource path="res://img/personagens/boy_1/perna_esquerda.png" type="Texture" id=89]
 [ext_resource path="res://img/personagens/boy_1/braco_direito.png" type="Texture" id=90]
@@ -182,49 +182,49 @@ func _process(delta):
 [sub_resource type="SpriteFrames" id=3]
 
 animations = [ {
-"frames": [ ExtResource( 5 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ],
 "loop": true,
-"name": "caracol",
+"name": "pato",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 6 ), ExtResource( 7 ) ],
-"loop": true,
-"name": "abelha",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ) ],
+"frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
 "loop": true,
 "name": "cachorro",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 16 ), ExtResource( 17 ) ],
+"frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "abelha",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 20 ) ],
 "loop": true,
 "name": "borboleta_1",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ],
-"loop": true,
-"name": "guaxi",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ) ],
+"frames": [ ExtResource( 21 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "borboleta_2",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ) ],
-"loop": true,
-"name": "passaro",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ) ],
+"frames": [ ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ) ],
 "loop": true,
 "name": "gato",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ) ],
+"frames": [ ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ) ],
 "loop": true,
-"name": "pato",
+"name": "guaxi",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ) ],
+"loop": true,
+"name": "passaro",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 48 ) ],
+"loop": true,
+"name": "caracol",
 "speed": 5.0
 } ]
 
@@ -303,7 +303,6 @@ texture = ExtResource( 2 )
 
 [node name="Node2D" type="Node2D" parent="ParallaxBackground"]
 
-editor/display_folded = true
 transform/pos = Vector2( 751.581, 55.1159 )
 
 [node name="sol" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
@@ -315,7 +314,8 @@ script/script = SubResource( 2 )
 
 [node name="cachorro" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
 
-transform/pos = Vector2( 229.569, 465.565 )
+visibility/visible = false
+transform/pos = Vector2( -506.582, 195.188 )
 transform/scale = Vector2( 0.631579, 0.641975 )
 frames = SubResource( 3 )
 animation = "cachorro"
@@ -323,7 +323,8 @@ script/script = ExtResource( 49 )
 
 [node name="gato" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
 
-transform/pos = Vector2( -648.423, 443.905 )
+visibility/visible = false
+transform/pos = Vector2( 174.067, 328.029 )
 transform/scale = Vector2( -0.35457, 0.343374 )
 frames = SubResource( 3 )
 animation = "gato"
@@ -331,7 +332,8 @@ script/script = ExtResource( 49 )
 
 [node name="passaro" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
 
-transform/pos = Vector2( -393.868, 164.189 )
+visibility/visible = false
+transform/pos = Vector2( -634.708, 334.594 )
 transform/scale = Vector2( 0.301184, 0.319269 )
 frames = SubResource( 3 )
 animation = "passaro"
@@ -339,7 +341,8 @@ script/script = ExtResource( 49 )
 
 [node name="guaxi" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
 
-transform/pos = Vector2( -235.237, 197.177 )
+visibility/visible = false
+transform/pos = Vector2( 71.9018, 217.317 )
 transform/scale = Vector2( 0.278591, 0.29532 )
 frames = SubResource( 3 )
 animation = "guaxi"
@@ -348,6 +351,7 @@ script/script = ExtResource( 49 )
 [node name="Path2D" type="Path2D" parent="ParallaxBackground/Node2D"]
 
 editor/display_folded = true
+visibility/visible = false
 z/relative = false
 curve = SubResource( 4 )
 
@@ -365,7 +369,7 @@ lookahead = 4.0
 
 [node name="borboleta_1" type="AnimatedSprite" parent="ParallaxBackground/Node2D/Path2D/PathFollow2D"]
 
-transform/pos = Vector2( 1.79172, 2.08658 )
+transform/pos = Vector2( -618.612, 728.583 )
 transform/rot = -26.834
 transform/scale = Vector2( 0.250437, 0.216822 )
 frames = SubResource( 3 )
@@ -376,11 +380,13 @@ script/script = ExtResource( 50 )
 [node name="Path2D 2" type="Path2D" parent="ParallaxBackground/Node2D"]
 
 editor/display_folded = true
+visibility/visible = false
 z/relative = false
 curve = SubResource( 5 )
 
 [node name="PathFollow2D" type="PathFollow2D" parent="ParallaxBackground/Node2D/Path2D 2"]
 
+visibility/visible = false
 transform/pos = Vector2( -675.395, 171.107 )
 transform/scale = Vector2( 2.25436, 2.53612 )
 offset = 0.0
@@ -393,6 +399,7 @@ lookahead = 4.0
 
 [node name="borboleta_2" type="AnimatedSprite" parent="ParallaxBackground/Node2D/Path2D 2/PathFollow2D"]
 
+visibility/visible = false
 transform/pos = Vector2( 0.126377, 0.375404 )
 transform/rot = -1.71913e-06
 transform/scale = Vector2( -0.138882, 0.112887 )
@@ -404,6 +411,7 @@ script/script = ExtResource( 50 )
 
 [node name="Path2D 3" type="Path2D" parent="ParallaxBackground/Node2D"]
 
+editor/display_folded = true
 transform/pos = Vector2( 88.1735, 43.0615 )
 transform/rot = -0.232163
 curve = SubResource( 6 )
@@ -431,6 +439,8 @@ script/script = ExtResource( 50 )
 
 [node name="Path2D 4" type="Path2D" parent="ParallaxBackground/Node2D"]
 
+editor/display_folded = true
+visibility/visible = false
 transform/pos = Vector2( 79.9713, -12.3033 )
 curve = SubResource( 7 )
 
@@ -452,7 +462,7 @@ transform/pos = Vector2( -62.6754, 10.3127 )
 transform/scale = Vector2( 0.13431, 0.273383 )
 frames = SubResource( 3 )
 animation = "pato"
-frame = 3
+frame = 1
 playing = true
 script/script = ExtResource( 50 )
 
@@ -539,6 +549,20 @@ margin/bottom = 297.0
 texture = ExtResource( 55 )
 stretch_mode = 0
 
+[node name="nuvem" type="TextureFrame" parent="ParallaxBackground"]
+
+visibility/visible = false
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 15.0
+margin/top = 11.0
+margin/right = 204.0
+margin/bottom = 97.0
+texture = ExtResource( 56 )
+stretch_mode = 0
+
 [node name="TextureFrame" type="TextureFrame" parent="ParallaxBackground"]
 
 focus/ignore_mouse = true
@@ -549,7 +573,7 @@ margin/left = 222.0
 margin/top = 55.0
 margin/right = 833.0
 margin/bottom = 167.0
-texture = ExtResource( 56 )
+texture = ExtResource( 57 )
 stretch_mode = 0
 
 [node name="parabens" type="TextureFrame" parent="ParallaxBackground"]
@@ -559,11 +583,11 @@ focus/ignore_mouse = true
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 298.0
-margin/top = 144.0
-margin/right = 730.0
-margin/bottom = 279.0
-texture = ExtResource( 57 )
+margin/left = 283.0
+margin/top = 154.0
+margin/right = 774.0
+margin/bottom = 289.0
+texture = ExtResource( 58 )
 stretch_mode = 0
 
 [node name="perdeu" type="TextureFrame" parent="ParallaxBackground"]
@@ -573,11 +597,11 @@ focus/ignore_mouse = true
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 363.0
-margin/top = 97.0
-margin/right = 670.0
-margin/bottom = 209.0
-texture = ExtResource( 58 )
+margin/left = 320.0
+margin/top = 188.0
+margin/right = 740.0
+margin/bottom = 300.0
+texture = ExtResource( 59 )
 stretch_mode = 0
 
 [node name="fim" type="TextureFrame" parent="ParallaxBackground"]
@@ -587,94 +611,93 @@ focus/ignore_mouse = true
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 436.0
-margin/top = 97.0
-margin/right = 582.0
-margin/bottom = 206.0
-texture = ExtResource( 59 )
+margin/left = 428.0
+margin/top = 175.0
+margin/right = 598.0
+margin/bottom = 284.0
+texture = ExtResource( 60 )
 stretch_mode = 0
 
-[node name="body_1" parent="ParallaxBackground" instance=ExtResource( 60 )]
+[node name="body_1" parent="ParallaxBackground" instance=ExtResource( 61 )]
 
 margin/left = 87.0
 margin/top = 243.0
 margin/right = 262.0
 margin/bottom = 453.0
-textures/normal = ExtResource( 61 )
-textures/pressed = ExtResource( 62 )
-textures/hover = ExtResource( 63 )
+textures/normal = ExtResource( 62 )
+textures/pressed = ExtResource( 63 )
+textures/hover = ExtResource( 64 )
 params/scale = Vector2( 0.7, 0.7 )
 
-[node name="body_2" parent="ParallaxBackground" instance=ExtResource( 64 )]
+[node name="body_2" parent="ParallaxBackground" instance=ExtResource( 65 )]
 
 margin/left = 316.0
 margin/top = 241.0
 margin/right = 491.0
 margin/bottom = 451.0
-textures/normal = ExtResource( 65 )
-textures/pressed = ExtResource( 66 )
-textures/hover = ExtResource( 67 )
+textures/normal = ExtResource( 66 )
+textures/pressed = ExtResource( 67 )
+textures/hover = ExtResource( 68 )
 params/scale = Vector2( 0.7, 0.7 )
 
-[node name="girl_1" parent="ParallaxBackground" instance=ExtResource( 68 )]
+[node name="girl_1" parent="ParallaxBackground" instance=ExtResource( 69 )]
 
 margin/left = 566.0
 margin/top = 245.0
 margin/right = 741.0
 margin/bottom = 455.0
-textures/normal = ExtResource( 69 )
-textures/pressed = ExtResource( 70 )
-textures/hover = ExtResource( 71 )
+textures/normal = ExtResource( 70 )
+textures/pressed = ExtResource( 71 )
+textures/hover = ExtResource( 72 )
 params/scale = Vector2( 0.7, 0.7 )
 
-[node name="girl_2" parent="ParallaxBackground" instance=ExtResource( 72 )]
+[node name="girl_2" parent="ParallaxBackground" instance=ExtResource( 73 )]
 
 margin/left = 796.0
 margin/top = 245.0
 margin/right = 971.0
 margin/bottom = 455.0
-textures/normal = ExtResource( 73 )
-textures/pressed = ExtResource( 74 )
-textures/hover = ExtResource( 75 )
+textures/normal = ExtResource( 74 )
+textures/pressed = ExtResource( 75 )
+textures/hover = ExtResource( 76 )
 params/scale = Vector2( 0.7, 0.7 )
 
-[node name="voltar_tela2" parent="ParallaxBackground" instance=ExtResource( 76 )]
+[node name="voltar_tela2" parent="ParallaxBackground" instance=ExtResource( 77 )]
 
 margin/bottom = 605.0
-textures/normal = ExtResource( 77 )
-textures/pressed = ExtResource( 78 )
+textures/normal = ExtResource( 78 )
+textures/pressed = ExtResource( 79 )
 
-[node name="play" parent="." instance=ExtResource( 79 )]
+[node name="play" parent="." instance=ExtResource( 80 )]
 
 visibility/visible = false
-margin/left = 770.0
-margin/top = -380.0
-margin/right = 965.2
-margin/bottom = -328.8
-textures/normal = ExtResource( 80 )
-textures/pressed = ExtResource( 81 )
-textures/hover = ExtResource( 82 )
+margin/left = 725.0
+margin/top = -385.0
+margin/right = 980.2
+margin/bottom = -265.8
+textures/normal = ExtResource( 81 )
+textures/pressed = ExtResource( 82 )
+textures/hover = ExtResource( 83 )
 params/resize_mode = 0
 params/scale = Vector2( 0.8, 0.8 )
 params/stretch_mode = 0
 
 [node name="voltar" type="TextureButton" parent="."]
 
-visibility/visible = false
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 767.0
-margin/top = -304.0
-margin/right = 962.2
-margin/bottom = -252.8
+margin/left = 782.0
+margin/top = -262.0
+margin/right = 977.0
+margin/bottom = -190.8
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
-textures/normal = ExtResource( 77 )
-textures/pressed = ExtResource( 78 )
-textures/hover = ExtResource( 83 )
+textures/normal = ExtResource( 78 )
+textures/pressed = ExtResource( 79 )
+textures/hover = ExtResource( 84 )
 params/resize_mode = 0
 params/scale = Vector2( 0.8, 0.8 )
 params/stretch_mode = 0
@@ -693,9 +716,9 @@ margin/bottom = -254.8
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
-textures/normal = ExtResource( 84 )
-textures/pressed = ExtResource( 85 )
-textures/hover = ExtResource( 86 )
+textures/normal = ExtResource( 85 )
+textures/pressed = ExtResource( 86 )
+textures/hover = ExtResource( 87 )
 params/resize_mode = 0
 params/scale = Vector2( 0.8, 0.8 )
 params/stretch_mode = 0
@@ -711,7 +734,7 @@ margin/left = 149.0
 margin/top = -121.0
 margin/right = 393.0
 margin/bottom = -10.0
-texture = ExtResource( 87 )
+texture = ExtResource( 56 )
 stretch_mode = 0
 
 [node name="Personagem0" type="Node2D" parent="."]
@@ -1655,20 +1678,18 @@ max_lines_visible = -1
 
 [node name="acertos" parent="Control" instance=ExtResource( 148 )]
 
-margin/left = -26.0
-margin/top = -401.0
-margin/right = 124.0
-margin/bottom = -371.0
+margin/left = 25.0
+margin/top = -384.0
+margin/right = 175.0
+margin/bottom = -354.0
 custom_colors/font_color_shadow = Color( 1, 1, 1, 1 )
 custom_constants/shadow_offset_x = 2
 text = "Acertos: 0"
 
 [node name="erros" parent="Control" instance=ExtResource( 149 )]
 
-margin/left = 0.0
-margin/top = -375.0
-margin/right = 124.0
-margin/bottom = -345.0
+margin/left = 25.0
+margin/right = 149.0
 custom_colors/font_color_shadow = Color( 1, 1, 1, 1 )
 custom_constants/shadow_offset_x = 2
 text = "Erros: 0"

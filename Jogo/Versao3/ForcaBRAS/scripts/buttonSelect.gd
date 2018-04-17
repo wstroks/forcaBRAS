@@ -141,7 +141,18 @@ func set_personagem(var personagem):
 func _inicializa_nodes_personagem():
 	array_corpo  = []
 	array_cabeca = []
-
+	get_parent().get_node("ParallaxBackground/nuvem").show()
+	get_parent().get_node("ParallaxBackground/Node2D/cachorro").show()
+	get_parent().get_node("ParallaxBackground/Node2D/gato").show()
+	get_parent().get_node("ParallaxBackground/Node2D/guaxi").show()
+	get_parent().get_node("ParallaxBackground/Node2D/passaro").show()
+	get_parent().get_node("ParallaxBackground/Node2D/Path2D/PathFollow2D/borboleta_1").show()
+	get_parent().get_node("ParallaxBackground/Node2D/Path2D 2/PathFollow2D").show()
+	get_parent().get_node("ParallaxBackground/Node2D/Path2D 2/PathFollow2D/borboleta_2").show()
+	get_parent().get_node("ParallaxBackground/Node2D/Path2D 3").show()
+	get_parent().get_node("ParallaxBackground/Node2D/nuvem_3/PathFollow2D").show()
+	get_parent().get_node("ParallaxBackground/Node2D/nuvem_3/PathFollow2D/nuvem2").show()
+	
 	node_personagem = get_parent().get_node(self.personagem)
 	p_esquerda = node_personagem.get_node("corpo/p_esquerda")
 	p_direita  = node_personagem.get_node("corpo/p_direita")
@@ -233,10 +244,12 @@ func _fim_fase():
 	if(!self.Obj._ultima_palavra()):
 		get_parent().get_node("play").show()
 		#get_parent().get_node("voltar").show()
+		
 	else: 
 		get_parent().get_node("resultado").show()
 		get_parent().get_node("Control/erros").hide()
 		get_parent().get_node("Control/acertos").hide()
+		
 
 	_habilita_teclado(true)
 	
