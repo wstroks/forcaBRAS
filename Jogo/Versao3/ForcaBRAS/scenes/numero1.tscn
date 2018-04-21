@@ -1,4 +1,4 @@
-[gd_scene load_steps=162 format=1]
+[gd_scene load_steps=146 format=1]
 
 [ext_resource path="res://ParallaxBackground.tscn" type="PackedScene" id=1]
 [ext_resource path="res://img/menu_itens/TelaJogo.png" type="Texture" id=2]
@@ -120,7 +120,7 @@
 [ext_resource path="res://img/personagens/menina_2/cabeca_2.png" type="Texture" id=118]
 [ext_resource path="res://img/personagens/menina_2/cabeca_3.png" type="Texture" id=119]
 [ext_resource path="res://img/personagens/menina_2/cabeca_4.png" type="Texture" id=120]
-[ext_resource path="res://scripts/buttonSelect.gd" type="Script" id=121]
+[ext_resource path="res://scripts/numero.gd" type="Script" id=121]
 [ext_resource path="res://testeSpriteApagarDepois.tscn" type="PackedScene" id=122]
 [ext_resource path="res://img/letras/letra-B-pressed.png" type="Texture" id=123]
 [ext_resource path="res://img/letras/letra-C-pressed.png" type="Texture" id=124]
@@ -131,26 +131,10 @@
 [ext_resource path="res://img/letras/letra-H-pressed.png" type="Texture" id=129]
 [ext_resource path="res://img/letras/letra-I-pressed.png" type="Texture" id=130]
 [ext_resource path="res://img/letras/letra-J-pressed.png" type="Texture" id=131]
-[ext_resource path="res://img/letras/letra-K-pressed.png" type="Texture" id=132]
-[ext_resource path="res://img/letras/letra-L-pressed.png" type="Texture" id=133]
-[ext_resource path="res://img/letras/letra-M-pressed.png" type="Texture" id=134]
-[ext_resource path="res://img/letras/letra-N-pressed.png" type="Texture" id=135]
-[ext_resource path="res://img/letras/letra-O-pressed.png" type="Texture" id=136]
-[ext_resource path="res://img/letras/letra-P-pressed.png" type="Texture" id=137]
-[ext_resource path="res://img/letras/letra-Q-pressed.png" type="Texture" id=138]
-[ext_resource path="res://img/letras/letra-R-pressed.png" type="Texture" id=139]
-[ext_resource path="res://img/letras/letra-S-pressed.png" type="Texture" id=140]
-[ext_resource path="res://img/letras/letra-T-pressed.png" type="Texture" id=141]
-[ext_resource path="res://img/letras/letra-U-pressed.png" type="Texture" id=142]
-[ext_resource path="res://img/letras/letra-V-pressed.png" type="Texture" id=143]
-[ext_resource path="res://img/letras/letra-W-pressed.png" type="Texture" id=144]
-[ext_resource path="res://img/letras/letra-X-pressed.png" type="Texture" id=145]
-[ext_resource path="res://img/letras/letra-Y-pressed.png" type="Texture" id=146]
-[ext_resource path="res://img/letras/letra-Z-pressed.png" type="Texture" id=147]
-[ext_resource path="res://FonteSecundaria.fnt" type="BitmapFont" id=148]
-[ext_resource path="res://FontePrincipall.fnt" type="BitmapFont" id=149]
-[ext_resource path="res://acertos.tscn" type="PackedScene" id=150]
-[ext_resource path="res://erros.tscn" type="PackedScene" id=151]
+[ext_resource path="res://FonteSecundaria.fnt" type="BitmapFont" id=132]
+[ext_resource path="res://FontePrincipall.fnt" type="BitmapFont" id=133]
+[ext_resource path="res://acertos.tscn" type="PackedScene" id=134]
+[ext_resource path="res://erros.tscn" type="PackedScene" id=135]
 
 [sub_resource type="SpriteFrames" id=1]
 
@@ -289,7 +273,7 @@ size_flags/vertical = 2
 margin/left = 35.0
 margin/top = 413.0
 margin/right = 990.0
-margin/bottom = 566.0
+margin/bottom = 496.0
 
 [node name="ParallaxBackground" parent="." instance=ExtResource( 1 )]
 
@@ -462,7 +446,6 @@ transform/pos = Vector2( -62.6754, 10.3127 )
 transform/scale = Vector2( 0.13431, 0.273383 )
 frames = SubResource( 3 )
 animation = "pato"
-frame = 2
 playing = true
 script/script = ExtResource( 50 )
 
@@ -726,6 +709,7 @@ stretch_mode = 0
 
 [node name="Personagem0" type="Node2D" parent="."]
 
+editor/display_folded = true
 visibility/visible = false
 
 [node name="corpo" type="Sprite" parent="Personagem0"]
@@ -885,11 +869,10 @@ texture = ExtResource( 104 )
 
 [node name="Personagem2" type="Node2D" parent="."]
 
+editor/display_folded = true
 visibility/visible = false
 
 [node name="corpo" type="Sprite" parent="Personagem2"]
-
-editor/display_folded = true
 
 [node name="p_esquerda" type="Sprite" parent="Personagem2/corpo"]
 
@@ -1065,10 +1048,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 3.0
-margin/top = 9.0
-margin/right = 75.0
-margin/bottom = 75.0
+margin/left = 79.0
+margin/top = 8.0
+margin/right = 151.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1076,7 +1059,7 @@ flat = false
 
 [node name="spriteA" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 39.4598, 42.9973 )
+transform/pos = Vector2( 115.641, 41.6369 )
 hframes = 3
 
 [node name="bntB" type="Button" parent="Control"]
@@ -1085,10 +1068,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 76.0
-margin/top = 9.0
-margin/right = 148.0
-margin/bottom = 75.0
+margin/left = 152.0
+margin/top = 8.0
+margin/right = 224.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1096,7 +1079,7 @@ flat = false
 
 [node name="spriteB" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 111.541, 41.9973 )
+transform/pos = Vector2( 187.722, 40.6369 )
 texture = ExtResource( 123 )
 hframes = 3
 
@@ -1106,10 +1089,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 149.0
-margin/top = 9.0
-margin/right = 221.0
-margin/bottom = 75.0
+margin/left = 225.0
+margin/top = 8.0
+margin/right = 297.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1117,7 +1100,7 @@ flat = false
 
 [node name="spriteC" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 184.784, 41.7998 )
+transform/pos = Vector2( 260.965, 40.4394 )
 texture = ExtResource( 124 )
 hframes = 3
 
@@ -1127,10 +1110,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 222.0
-margin/top = 9.0
-margin/right = 294.0
-margin/bottom = 75.0
+margin/left = 298.0
+margin/top = 8.0
+margin/right = 370.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1138,7 +1121,7 @@ flat = false
 
 [node name="spriteD" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 257.541, 41.9973 )
+transform/pos = Vector2( 333.722, 40.6369 )
 texture = ExtResource( 125 )
 hframes = 3
 
@@ -1148,10 +1131,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 295.0
-margin/top = 9.0
-margin/right = 367.0
-margin/bottom = 75.0
+margin/left = 371.0
+margin/top = 8.0
+margin/right = 443.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1159,7 +1142,7 @@ flat = false
 
 [node name="spriteE" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 330.784, 42.7998 )
+transform/pos = Vector2( 406.965, 41.4394 )
 texture = ExtResource( 126 )
 hframes = 3
 
@@ -1169,10 +1152,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 368.0
-margin/top = 9.0
-margin/right = 440.0
-margin/bottom = 75.0
+margin/left = 444.0
+margin/top = 8.0
+margin/right = 516.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1180,7 +1163,7 @@ flat = false
 
 [node name="spriteF" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 404.109, 41.6607 )
+transform/pos = Vector2( 480.29, 40.3003 )
 texture = ExtResource( 127 )
 hframes = 3
 
@@ -1190,10 +1173,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 441.0
-margin/top = 9.0
-margin/right = 513.0
-margin/bottom = 75.0
+margin/left = 517.0
+margin/top = 8.0
+margin/right = 589.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1201,7 +1184,7 @@ flat = false
 
 [node name="spriteG" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 477.352, 42.1364 )
+transform/pos = Vector2( 553.533, 40.776 )
 texture = ExtResource( 128 )
 hframes = 3
 
@@ -1211,10 +1194,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 514.0
-margin/top = 9.0
-margin/right = 586.0
-margin/bottom = 75.0
+margin/left = 590.0
+margin/top = 8.0
+margin/right = 662.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1222,7 +1205,7 @@ flat = false
 
 [node name="spriteH" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 551.109, 41.9973 )
+transform/pos = Vector2( 627.29, 40.6369 )
 texture = ExtResource( 129 )
 hframes = 3
 
@@ -1232,10 +1215,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 587.0
-margin/top = 9.0
-margin/right = 659.0
-margin/bottom = 75.0
+margin/left = 663.0
+margin/top = 8.0
+margin/right = 735.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1243,7 +1226,7 @@ flat = false
 
 [node name="spriteI" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 624.352, 41.7998 )
+transform/pos = Vector2( 700.533, 40.4394 )
 texture = ExtResource( 130 )
 hframes = 3
 
@@ -1253,10 +1236,10 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 660.0
-margin/top = 9.0
-margin/right = 732.0
-margin/bottom = 75.0
+margin/left = 736.0
+margin/top = 8.0
+margin/right = 808.0
+margin/bottom = 74.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -1264,344 +1247,8 @@ flat = false
 
 [node name="spriteJ" parent="Control" instance=ExtResource( 122 )]
 
-transform/pos = Vector2( 696.014, 42.3241 )
+transform/pos = Vector2( 772.195, 40.9637 )
 texture = ExtResource( 131 )
-hframes = 3
-
-[node name="bntK" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 733.0
-margin/top = 9.0
-margin/right = 805.0
-margin/bottom = 75.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteK" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 769.257, 42.7998 )
-texture = ExtResource( 132 )
-hframes = 3
-
-[node name="bntL" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 806.0
-margin/top = 9.0
-margin/right = 878.0
-margin/bottom = 75.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteL" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 842.014, 42.6607 )
-texture = ExtResource( 133 )
-hframes = 3
-
-[node name="bntM" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 879.0
-margin/top = 9.0
-margin/right = 951.0
-margin/bottom = 75.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteM" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 915.257, 42.4632 )
-texture = ExtResource( 134 )
-hframes = 3
-
-[node name="bntN" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 3.0
-margin/top = 76.0
-margin/right = 75.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteN" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 39.4598, 108.997 )
-texture = ExtResource( 135 )
-hframes = 3
-
-[node name="bntO" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 76.0
-margin/top = 76.0
-margin/right = 148.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteO" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 111.541, 108.997 )
-texture = ExtResource( 136 )
-hframes = 3
-
-[node name="bntP" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 149.0
-margin/top = 76.0
-margin/right = 221.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteP" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 184.784, 108.8 )
-texture = ExtResource( 137 )
-hframes = 3
-
-[node name="bntQ" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 222.0
-margin/top = 76.0
-margin/right = 294.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteQ" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 257.541, 108.997 )
-texture = ExtResource( 138 )
-hframes = 3
-
-[node name="bntR" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 295.0
-margin/top = 76.0
-margin/right = 367.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteR" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 330.784, 108.8 )
-texture = ExtResource( 139 )
-hframes = 3
-
-[node name="bntS" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 368.0
-margin/top = 76.0
-margin/right = 440.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteS" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 404.109, 108.661 )
-texture = ExtResource( 140 )
-hframes = 3
-
-[node name="bntT" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 441.0
-margin/top = 76.0
-margin/right = 513.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteT" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 477.352, 109.136 )
-texture = ExtResource( 141 )
-hframes = 3
-
-[node name="bntU" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 514.0
-margin/top = 76.0
-margin/right = 586.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteU" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 550.109, 108.997 )
-texture = ExtResource( 142 )
-hframes = 3
-
-[node name="bntV" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 587.0
-margin/top = 76.0
-margin/right = 659.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteV" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 623.352, 108.8 )
-texture = ExtResource( 143 )
-hframes = 3
-
-[node name="bntW" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 660.0
-margin/top = 76.0
-margin/right = 732.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteW" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 696.014, 109.324 )
-texture = ExtResource( 144 )
-hframes = 3
-
-[node name="bntX" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 733.0
-margin/top = 76.0
-margin/right = 805.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteX" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 769.257, 108.8 )
-texture = ExtResource( 145 )
-hframes = 3
-
-[node name="bntY" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 806.0
-margin/top = 76.0
-margin/right = 878.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteY" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 842.014, 108.661 )
-texture = ExtResource( 146 )
-hframes = 3
-
-[node name="bntZ" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 879.0
-margin/top = 76.0
-margin/right = 951.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="spriteZ" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 915.257, 109.463 )
-texture = ExtResource( 147 )
 hframes = 3
 
 [node name="Panel1" type="Panel" parent="Control"]
@@ -1625,7 +1272,7 @@ margin/left = 17.0
 margin/top = 4.0
 margin/right = 635.0
 margin/bottom = 26.0
-custom_fonts/font = ExtResource( 148 )
+custom_fonts/font = ExtResource( 132 )
 custom_constants/shadow_offset_x = 0
 custom_constants/line_spacing = 0
 align = 1
@@ -1656,7 +1303,7 @@ margin/left = 16.0
 margin/top = 17.0
 margin/right = 640.0
 margin/bottom = 67.0
-custom_fonts/font = ExtResource( 149 )
+custom_fonts/font = ExtResource( 133 )
 custom_constants/shadow_offset_x = 0
 custom_constants/line_spacing = 0
 align = 1
@@ -1666,7 +1313,7 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 
-[node name="acertos" parent="Control" instance=ExtResource( 150 )]
+[node name="acertos" parent="Control" instance=ExtResource( 134 )]
 
 margin/left = 25.0
 margin/top = -384.0
@@ -1676,7 +1323,7 @@ custom_colors/font_color_shadow = Color( 1, 1, 1, 1 )
 custom_constants/shadow_offset_x = 2
 text = "Acertos: 0"
 
-[node name="erros" parent="Control" instance=ExtResource( 151 )]
+[node name="erros" parent="Control" instance=ExtResource( 135 )]
 
 margin/left = 25.0
 margin/right = 149.0
@@ -1719,38 +1366,6 @@ text = "Erros: 0"
 [connection signal="pressed" from="Control/bntI" to="Control" method="_on_bntI_pressed"]
 
 [connection signal="pressed" from="Control/bntJ" to="Control" method="_on_bntJ_pressed"]
-
-[connection signal="pressed" from="Control/bntK" to="Control" method="_on_bntK_pressed"]
-
-[connection signal="pressed" from="Control/bntL" to="Control" method="_on_bntL_pressed"]
-
-[connection signal="pressed" from="Control/bntM" to="Control" method="_on_bntM_pressed"]
-
-[connection signal="pressed" from="Control/bntN" to="Control" method="_on_bntN_pressed"]
-
-[connection signal="pressed" from="Control/bntO" to="Control" method="_on_bntO_pressed"]
-
-[connection signal="pressed" from="Control/bntP" to="Control" method="_on_bntP_pressed"]
-
-[connection signal="pressed" from="Control/bntQ" to="Control" method="_on_bntQ_pressed"]
-
-[connection signal="pressed" from="Control/bntR" to="Control" method="_on_bntR_pressed"]
-
-[connection signal="pressed" from="Control/bntS" to="Control" method="_on_bntS_pressed"]
-
-[connection signal="pressed" from="Control/bntT" to="Control" method="_on_bntT_pressed"]
-
-[connection signal="pressed" from="Control/bntU" to="Control" method="_on_bntU_pressed"]
-
-[connection signal="pressed" from="Control/bntV" to="Control" method="_on_bntV_pressed"]
-
-[connection signal="pressed" from="Control/bntW" to="Control" method="_on_bntW_pressed"]
-
-[connection signal="pressed" from="Control/bntX" to="Control" method="_on_bntX_pressed"]
-
-[connection signal="pressed" from="Control/bntY" to="Control" method="_on_bntY_pressed"]
-
-[connection signal="pressed" from="Control/bntZ" to="Control" method="_on_bntZ_pressed"]
 
 
 [editable path="ParallaxBackground"]

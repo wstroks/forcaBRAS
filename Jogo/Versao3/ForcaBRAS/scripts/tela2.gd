@@ -10,4 +10,4 @@ func _on_dificil_pressed():
 
 func _on_voltar_pressed():
 	audio_player.play("click")
-	get_tree().change_scene("res://scenes/ui.tscn")
+	get_tree().change_scene("res://scenes/escolhadojogo.tscn")

@@ -10,7 +10,7 @@ func _on_sair_pressed():
 func _on_jogar_pressed():
 	print("Playing the game!")
 	audio_player.play("click")
-	get_tree().change_scene("res://scenes/tela2.tscn")
+	get_tree().change_scene("res://scenes/escolhadojogo.tscn")
 
 func _on_sobre_pressed():
 	audio_player.play("click")
