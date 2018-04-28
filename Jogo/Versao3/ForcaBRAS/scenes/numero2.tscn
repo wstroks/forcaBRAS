@@ -1,141 +1,138 @@
-[gd_scene load_steps=147 format=1]
+[gd_scene load_steps=144 format=1]
 
 [ext_resource path="res://ParallaxBackground.tscn" type="PackedScene" id=1]
 [ext_resource path="res://img/menu_itens/TelaJogo.png" type="Texture" id=2]
 [ext_resource path="res://img/menu_itens/sol_1.png" type="Texture" id=3]
 [ext_resource path="res://img/menu_itens/sol_2.png" type="Texture" id=4]
-[ext_resource path="res://img/menu_itens/others/caracol_2.tex" type="Texture" id=5]
-[ext_resource path="res://img/menu_itens/others/passaro_1.tex" type="Texture" id=6]
-[ext_resource path="res://img/menu_itens/others/passaro_2.tex" type="Texture" id=7]
-[ext_resource path="res://img/menu_itens/others/passaro_3.tex" type="Texture" id=8]
-[ext_resource path="res://img/menu_itens/others/passaro_4.tex" type="Texture" id=9]
-[ext_resource path="res://img/menu_itens/others/passaro_5.tex" type="Texture" id=10]
-[ext_resource path="res://img/menu_itens/others/borboleta_3.tex" type="Texture" id=11]
-[ext_resource path="res://img/menu_itens/others/borboleta_4.tex" type="Texture" id=12]
-[ext_resource path="res://img/menu_itens/others/gato_1.tex" type="Texture" id=13]
-[ext_resource path="res://img/menu_itens/others/gato_2.tex" type="Texture" id=14]
-[ext_resource path="res://img/menu_itens/others/gato_3.tex" type="Texture" id=15]
-[ext_resource path="res://img/menu_itens/others/gato_4.tex" type="Texture" id=16]
-[ext_resource path="res://img/menu_itens/others/gato_5.tex" type="Texture" id=17]
-[ext_resource path="res://img/menu_itens/others/gato_6.tex" type="Texture" id=18]
-[ext_resource path="res://img/menu_itens/others/gato_7.tex" type="Texture" id=19]
-[ext_resource path="res://img/menu_itens/others/gato_8.tex" type="Texture" id=20]
-[ext_resource path="res://img/menu_itens/others/gato_9.tex" type="Texture" id=21]
-[ext_resource path="res://img/menu_itens/others/cachorro_1.tex" type="Texture" id=22]
-[ext_resource path="res://img/menu_itens/others/cachorro_2.tex" type="Texture" id=23]
-[ext_resource path="res://img/menu_itens/others/cachorro_3.tex" type="Texture" id=24]
-[ext_resource path="res://img/menu_itens/others/cachorro_4.tex" type="Texture" id=25]
-[ext_resource path="res://img/menu_itens/others/cachorro_5.tex" type="Texture" id=26]
-[ext_resource path="res://img/menu_itens/others/cachorro_6.tex" type="Texture" id=27]
-[ext_resource path="res://img/menu_itens/others/cachorro_7.tex" type="Texture" id=28]
-[ext_resource path="res://img/menu_itens/others/cachorro_8.tex" type="Texture" id=29]
-[ext_resource path="res://img/menu_itens/others/guaxi_1.tex" type="Texture" id=30]
-[ext_resource path="res://img/menu_itens/others/guaxi_2.tex" type="Texture" id=31]
-[ext_resource path="res://img/menu_itens/others/guaxi_3.tex" type="Texture" id=32]
-[ext_resource path="res://img/menu_itens/others/guaxi_4.tex" type="Texture" id=33]
-[ext_resource path="res://img/menu_itens/others/guaxi_5.tex" type="Texture" id=34]
-[ext_resource path="res://img/menu_itens/others/guaxi_6.tex" type="Texture" id=35]
-[ext_resource path="res://img/menu_itens/others/guaxi_7.tex" type="Texture" id=36]
-[ext_resource path="res://img/menu_itens/others/guaxi_8.tex" type="Texture" id=37]
-[ext_resource path="res://img/menu_itens/others/guaxi_9.tex" type="Texture" id=38]
-[ext_resource path="res://img/menu_itens/others/guaxi_10.tex" type="Texture" id=39]
-[ext_resource path="res://img/menu_itens/others/guaxi_11.tex" type="Texture" id=40]
-[ext_resource path="res://img/menu_itens/others/abelha_1.tex" type="Texture" id=41]
-[ext_resource path="res://img/menu_itens/others/abelha_2.tex" type="Texture" id=42]
-[ext_resource path="res://img/menu_itens/others/borboleta_1.tex" type="Texture" id=43]
-[ext_resource path="res://img/menu_itens/others/borboleta_2.tex" type="Texture" id=44]
-[ext_resource path="res://img/menu_itens/others/pato.tex" type="Texture" id=45]
-[ext_resource path="res://img/menu_itens/others/pato_1.tex" type="Texture" id=46]
-[ext_resource path="res://img/menu_itens/others/pato_2.tex" type="Texture" id=47]
-[ext_resource path="res://img/menu_itens/others/pato_3.tex" type="Texture" id=48]
+[ext_resource path="res://img/menu_itens/others/borboleta_1.tex" type="Texture" id=5]
+[ext_resource path="res://img/menu_itens/others/borboleta_2.tex" type="Texture" id=6]
+[ext_resource path="res://img/menu_itens/others/passaro_1.tex" type="Texture" id=7]
+[ext_resource path="res://img/menu_itens/others/passaro_2.tex" type="Texture" id=8]
+[ext_resource path="res://img/menu_itens/others/passaro_3.tex" type="Texture" id=9]
+[ext_resource path="res://img/menu_itens/others/passaro_4.tex" type="Texture" id=10]
+[ext_resource path="res://img/menu_itens/others/passaro_5.tex" type="Texture" id=11]
+[ext_resource path="res://img/menu_itens/others/abelha_1.tex" type="Texture" id=12]
+[ext_resource path="res://img/menu_itens/others/abelha_2.tex" type="Texture" id=13]
+[ext_resource path="res://img/menu_itens/others/pato.tex" type="Texture" id=14]
+[ext_resource path="res://img/menu_itens/others/pato_1.tex" type="Texture" id=15]
+[ext_resource path="res://img/menu_itens/others/pato_2.tex" type="Texture" id=16]
+[ext_resource path="res://img/menu_itens/others/pato_3.tex" type="Texture" id=17]
+[ext_resource path="res://img/menu_itens/others/borboleta_3.tex" type="Texture" id=18]
+[ext_resource path="res://img/menu_itens/others/borboleta_4.tex" type="Texture" id=19]
+[ext_resource path="res://img/menu_itens/others/guaxi_1.tex" type="Texture" id=20]
+[ext_resource path="res://img/menu_itens/others/guaxi_2.tex" type="Texture" id=21]
+[ext_resource path="res://img/menu_itens/others/guaxi_3.tex" type="Texture" id=22]
+[ext_resource path="res://img/menu_itens/others/guaxi_4.tex" type="Texture" id=23]
+[ext_resource path="res://img/menu_itens/others/guaxi_5.tex" type="Texture" id=24]
+[ext_resource path="res://img/menu_itens/others/guaxi_6.tex" type="Texture" id=25]
+[ext_resource path="res://img/menu_itens/others/guaxi_7.tex" type="Texture" id=26]
+[ext_resource path="res://img/menu_itens/others/guaxi_8.tex" type="Texture" id=27]
+[ext_resource path="res://img/menu_itens/others/guaxi_9.tex" type="Texture" id=28]
+[ext_resource path="res://img/menu_itens/others/guaxi_10.tex" type="Texture" id=29]
+[ext_resource path="res://img/menu_itens/others/guaxi_11.tex" type="Texture" id=30]
+[ext_resource path="res://img/menu_itens/others/gato_1.tex" type="Texture" id=31]
+[ext_resource path="res://img/menu_itens/others/gato_2.tex" type="Texture" id=32]
+[ext_resource path="res://img/menu_itens/others/gato_3.tex" type="Texture" id=33]
+[ext_resource path="res://img/menu_itens/others/gato_4.tex" type="Texture" id=34]
+[ext_resource path="res://img/menu_itens/others/gato_5.tex" type="Texture" id=35]
+[ext_resource path="res://img/menu_itens/others/gato_6.tex" type="Texture" id=36]
+[ext_resource path="res://img/menu_itens/others/gato_7.tex" type="Texture" id=37]
+[ext_resource path="res://img/menu_itens/others/gato_8.tex" type="Texture" id=38]
+[ext_resource path="res://img/menu_itens/others/gato_9.tex" type="Texture" id=39]
+[ext_resource path="res://img/menu_itens/others/cachorro_1.tex" type="Texture" id=40]
+[ext_resource path="res://img/menu_itens/others/cachorro_2.tex" type="Texture" id=41]
+[ext_resource path="res://img/menu_itens/others/cachorro_3.tex" type="Texture" id=42]
+[ext_resource path="res://img/menu_itens/others/cachorro_4.tex" type="Texture" id=43]
+[ext_resource path="res://img/menu_itens/others/cachorro_5.tex" type="Texture" id=44]
+[ext_resource path="res://img/menu_itens/others/cachorro_6.tex" type="Texture" id=45]
+[ext_resource path="res://img/menu_itens/others/cachorro_7.tex" type="Texture" id=46]
+[ext_resource path="res://img/menu_itens/others/cachorro_8.tex" type="Texture" id=47]
+[ext_resource path="res://img/menu_itens/others/caracol_2.tex" type="Texture" id=48]
 [ext_resource path="res://scripts/SpriteAnimated.gd" type="Script" id=49]
 [ext_resource path="res://scripts/move.gd" type="Script" id=50]
-[ext_resource path="res://img/menu_itens/nuvem_1.png" type="Texture" id=51]
+[ext_resource path="res://img/menu_itens/nuvem.png" type="Texture" id=51]
 [ext_resource path="res://scripts/move_sprite.gd" type="Script" id=52]
-[ext_resource path="res://img/menu_itens/nuvem_2.png" type="Texture" id=53]
-[ext_resource path="res://img/menu_itens/nuvem_3.png" type="Texture" id=54]
-[ext_resource path="res://img/menu_itens/nuvem.png" type="Texture" id=55]
-[ext_resource path="res://img/menu_itens/TextoPersonagens.png" type="Texture" id=56]
-[ext_resource path="res://img/menu_itens/PARABENS.png" type="Texture" id=57]
-[ext_resource path="res://img/menu_itens/Perdeu.png" type="Texture" id=58]
-[ext_resource path="res://img/menu_itens/fim.png" type="Texture" id=59]
-[ext_resource path="res://img/body_1.tscn" type="PackedScene" id=60]
-[ext_resource path="res://img/menu_itens/menino1_normal.png" type="Texture" id=61]
-[ext_resource path="res://img/menu_itens/menino1_laranja.png" type="Texture" id=62]
-[ext_resource path="res://img/menu_itens/menino1_azul.png" type="Texture" id=63]
-[ext_resource path="res://img/body_2.tscn" type="PackedScene" id=64]
-[ext_resource path="res://img/menu_itens/menino2_normal.png" type="Texture" id=65]
-[ext_resource path="res://img/menu_itens/menino2_laranja.png" type="Texture" id=66]
-[ext_resource path="res://img/menu_itens/menino2_azul.png" type="Texture" id=67]
-[ext_resource path="res://img/girl_1.tscn" type="PackedScene" id=68]
-[ext_resource path="res://img/menu_itens/menina1_normal.png" type="Texture" id=69]
-[ext_resource path="res://img/menu_itens/menina1_laranja.png" type="Texture" id=70]
-[ext_resource path="res://img/menu_itens/menina1_azul.png" type="Texture" id=71]
-[ext_resource path="res://img/girl_2.tscn" type="PackedScene" id=72]
-[ext_resource path="res://img/menu_itens/menina2_normal.png" type="Texture" id=73]
-[ext_resource path="res://img/menu_itens/menina2_laranja.png" type="Texture" id=74]
-[ext_resource path="res://img/menu_itens/menina2_azul.png" type="Texture" id=75]
-[ext_resource path="res://img/voltar.tscn" type="PackedScene" id=76]
-[ext_resource path="res://img/menu_itens/voltar_normal.png" type="Texture" id=77]
-[ext_resource path="res://img/menu_itens/voltar_laranja.png" type="Texture" id=78]
-[ext_resource path="res://play.tscn" type="PackedScene" id=79]
-[ext_resource path="res://img/menu_itens/Jogar_normal.png" type="Texture" id=80]
-[ext_resource path="res://img/menu_itens/jogar_laranja.png" type="Texture" id=81]
-[ext_resource path="res://img/menu_itens/jogar_azul.png" type="Texture" id=82]
-[ext_resource path="res://img/menu_itens/voltar_azul.png" type="Texture" id=83]
-[ext_resource path="res://img/menu_itens/resultados_normal.png" type="Texture" id=84]
-[ext_resource path="res://img/menu_itens/resultados_laranja.png" type="Texture" id=85]
-[ext_resource path="res://img/menu_itens/resultados_azul.png" type="Texture" id=86]
-[ext_resource path="res://img/personagens/menino_1/perna_1.png" type="Texture" id=87]
-[ext_resource path="res://img/personagens/menino_1/perna_2.png" type="Texture" id=88]
-[ext_resource path="res://img/personagens/braco_1.png" type="Texture" id=89]
-[ext_resource path="res://img/personagens/braco_2.png" type="Texture" id=90]
-[ext_resource path="res://img/personagens/menino_1/short.png" type="Texture" id=91]
-[ext_resource path="res://img/personagens/menino_1/tronco.png" type="Texture" id=92]
-[ext_resource path="res://img/personagens/menino_1/cabeca_1.png" type="Texture" id=93]
-[ext_resource path="res://img/personagens/menino_1/cabeca_3.png" type="Texture" id=94]
-[ext_resource path="res://img/personagens/menino_1/cabeca_2.png" type="Texture" id=95]
-[ext_resource path="res://img/personagens/menino_1/cabeca_4.png" type="Texture" id=96]
-[ext_resource path="res://img/personagens/menino_2/perna_1.png" type="Texture" id=97]
-[ext_resource path="res://img/personagens/menino_2/perna_2.png" type="Texture" id=98]
-[ext_resource path="res://img/personagens/menino_2/tronco.png" type="Texture" id=99]
-[ext_resource path="res://img/personagens/menino_2/short.png" type="Texture" id=100]
-[ext_resource path="res://img/personagens/menino_2/cabeca_1.png" type="Texture" id=101]
-[ext_resource path="res://img/personagens/menino_2/cabeca_3.png" type="Texture" id=102]
-[ext_resource path="res://img/personagens/menino_2/cabeca_2.png" type="Texture" id=103]
-[ext_resource path="res://img/personagens/menino_2/cabeca_4.png" type="Texture" id=104]
-[ext_resource path="res://img/personagens/menina_1/perna_2.png" type="Texture" id=105]
-[ext_resource path="res://img/personagens/menina_1/tronco.png" type="Texture" id=106]
-[ext_resource path="res://img/personagens/menina_1/saia.png" type="Texture" id=107]
-[ext_resource path="res://img/personagens/menina_1/perna_1.png" type="Texture" id=108]
-[ext_resource path="res://img/personagens/menina_1/cabeca_1.png" type="Texture" id=109]
-[ext_resource path="res://img/personagens/menina_1/cabeca_3.png" type="Texture" id=110]
-[ext_resource path="res://img/personagens/menina_1/cabeca_2.png" type="Texture" id=111]
-[ext_resource path="res://img/personagens/menina_1/cabeca_4.png" type="Texture" id=112]
-[ext_resource path="res://img/personagens/menina_2/perna_1.png" type="Texture" id=113]
-[ext_resource path="res://img/personagens/menina_2/tronco.png" type="Texture" id=114]
-[ext_resource path="res://img/personagens/menina_2/saia.png" type="Texture" id=115]
-[ext_resource path="res://img/personagens/menina_2/perna_2.png" type="Texture" id=116]
-[ext_resource path="res://img/personagens/menina_2/cabeca_1.png" type="Texture" id=117]
-[ext_resource path="res://img/personagens/menina_2/cabeca_2.png" type="Texture" id=118]
-[ext_resource path="res://img/personagens/menina_2/cabeca_3.png" type="Texture" id=119]
-[ext_resource path="res://img/personagens/menina_2/cabeca_4.png" type="Texture" id=120]
-[ext_resource path="res://scripts/numero.gd" type="Script" id=121]
-[ext_resource path="res://testeSpriteApagarDepois.tscn" type="PackedScene" id=122]
-[ext_resource path="res://img/numeros/dificil/0.png" type="Texture" id=123]
-[ext_resource path="res://img/numeros/dificil/1.png" type="Texture" id=124]
-[ext_resource path="res://img/numeros/dificil/2.png" type="Texture" id=125]
-[ext_resource path="res://img/numeros/dificil/3.png" type="Texture" id=126]
-[ext_resource path="res://img/numeros/dificil/4.png" type="Texture" id=127]
-[ext_resource path="res://img/numeros/dificil/5.png" type="Texture" id=128]
-[ext_resource path="res://img/numeros/dificil/6.png" type="Texture" id=129]
-[ext_resource path="res://img/numeros/dificil/7.png" type="Texture" id=130]
-[ext_resource path="res://img/numeros/dificil/8.png" type="Texture" id=131]
-[ext_resource path="res://img/numeros/dificil/9.png" type="Texture" id=132]
-[ext_resource path="res://FonteSecundaria.fnt" type="BitmapFont" id=133]
-[ext_resource path="res://FontePrincipall.fnt" type="BitmapFont" id=134]
-[ext_resource path="res://acertos.tscn" type="PackedScene" id=135]
-[ext_resource path="res://erros.tscn" type="PackedScene" id=136]
+[ext_resource path="res://img/menu_itens/TextoPersonagens.png" type="Texture" id=53]
+[ext_resource path="res://img/menu_itens/PARABENS.png" type="Texture" id=54]
+[ext_resource path="res://img/menu_itens/Perdeu.png" type="Texture" id=55]
+[ext_resource path="res://img/menu_itens/fim.png" type="Texture" id=56]
+[ext_resource path="res://img/body_1.tscn" type="PackedScene" id=57]
+[ext_resource path="res://img/menu_itens/menino1_normal.png" type="Texture" id=58]
+[ext_resource path="res://img/menu_itens/menino1_laranja.png" type="Texture" id=59]
+[ext_resource path="res://img/menu_itens/menino1_azul.png" type="Texture" id=60]
+[ext_resource path="res://img/body_2.tscn" type="PackedScene" id=61]
+[ext_resource path="res://img/menu_itens/menino2_normal.png" type="Texture" id=62]
+[ext_resource path="res://img/menu_itens/menino2_laranja.png" type="Texture" id=63]
+[ext_resource path="res://img/menu_itens/menino2_azul.png" type="Texture" id=64]
+[ext_resource path="res://img/girl_1.tscn" type="PackedScene" id=65]
+[ext_resource path="res://img/menu_itens/menina1_normal.png" type="Texture" id=66]
+[ext_resource path="res://img/menu_itens/menina1_laranja.png" type="Texture" id=67]
+[ext_resource path="res://img/menu_itens/menina1_azul.png" type="Texture" id=68]
+[ext_resource path="res://img/girl_2.tscn" type="PackedScene" id=69]
+[ext_resource path="res://img/menu_itens/menina2_normal.png" type="Texture" id=70]
+[ext_resource path="res://img/menu_itens/menina2_laranja.png" type="Texture" id=71]
+[ext_resource path="res://img/menu_itens/menina2_azul.png" type="Texture" id=72]
+[ext_resource path="res://img/voltar.tscn" type="PackedScene" id=73]
+[ext_resource path="res://img/menu_itens/voltar_normal.png" type="Texture" id=74]
+[ext_resource path="res://img/menu_itens/voltar_laranja.png" type="Texture" id=75]
+[ext_resource path="res://play.tscn" type="PackedScene" id=76]
+[ext_resource path="res://img/menu_itens/Jogar_normal.png" type="Texture" id=77]
+[ext_resource path="res://img/menu_itens/jogar_laranja.png" type="Texture" id=78]
+[ext_resource path="res://img/menu_itens/jogar_azul.png" type="Texture" id=79]
+[ext_resource path="res://img/menu_itens/voltar_azul.png" type="Texture" id=80]
+[ext_resource path="res://img/menu_itens/resultados_normal.png" type="Texture" id=81]
+[ext_resource path="res://img/menu_itens/resultados_laranja.png" type="Texture" id=82]
+[ext_resource path="res://img/menu_itens/resultados_azul.png" type="Texture" id=83]
+[ext_resource path="res://img/personagens/menino_1/perna_1.png" type="Texture" id=84]
+[ext_resource path="res://img/personagens/menino_1/perna_2.png" type="Texture" id=85]
+[ext_resource path="res://img/personagens/braco_1.png" type="Texture" id=86]
+[ext_resource path="res://img/personagens/braco_2.png" type="Texture" id=87]
+[ext_resource path="res://img/personagens/menino_1/short.png" type="Texture" id=88]
+[ext_resource path="res://img/personagens/menino_1/tronco.png" type="Texture" id=89]
+[ext_resource path="res://img/personagens/menino_1/cabeca_1.png" type="Texture" id=90]
+[ext_resource path="res://img/personagens/menino_1/cabeca_3.png" type="Texture" id=91]
+[ext_resource path="res://img/personagens/menino_1/cabeca_2.png" type="Texture" id=92]
+[ext_resource path="res://img/personagens/menino_1/cabeca_4.png" type="Texture" id=93]
+[ext_resource path="res://img/personagens/menino_2/perna_1.png" type="Texture" id=94]
+[ext_resource path="res://img/personagens/menino_2/perna_2.png" type="Texture" id=95]
+[ext_resource path="res://img/personagens/menino_2/tronco.png" type="Texture" id=96]
+[ext_resource path="res://img/personagens/menino_2/short.png" type="Texture" id=97]
+[ext_resource path="res://img/personagens/menino_2/cabeca_1.png" type="Texture" id=98]
+[ext_resource path="res://img/personagens/menino_2/cabeca_3.png" type="Texture" id=99]
+[ext_resource path="res://img/personagens/menino_2/cabeca_2.png" type="Texture" id=100]
+[ext_resource path="res://img/personagens/menino_2/cabeca_4.png" type="Texture" id=101]
+[ext_resource path="res://img/personagens/menina_1/perna_2.png" type="Texture" id=102]
+[ext_resource path="res://img/personagens/menina_1/tronco.png" type="Texture" id=103]
+[ext_resource path="res://img/personagens/menina_1/saia.png" type="Texture" id=104]
+[ext_resource path="res://img/personagens/menina_1/perna_1.png" type="Texture" id=105]
+[ext_resource path="res://img/personagens/menina_1/cabeca_1.png" type="Texture" id=106]
+[ext_resource path="res://img/personagens/menina_1/cabeca_3.png" type="Texture" id=107]
+[ext_resource path="res://img/personagens/menina_1/cabeca_2.png" type="Texture" id=108]
+[ext_resource path="res://img/personagens/menina_1/cabeca_4.png" type="Texture" id=109]
+[ext_resource path="res://img/personagens/menina_2/perna_1.png" type="Texture" id=110]
+[ext_resource path="res://img/personagens/menina_2/tronco.png" type="Texture" id=111]
+[ext_resource path="res://img/personagens/menina_2/saia.png" type="Texture" id=112]
+[ext_resource path="res://img/personagens/menina_2/perna_2.png" type="Texture" id=113]
+[ext_resource path="res://img/personagens/menina_2/cabeca_1.png" type="Texture" id=114]
+[ext_resource path="res://img/personagens/menina_2/cabeca_2.png" type="Texture" id=115]
+[ext_resource path="res://img/personagens/menina_2/cabeca_3.png" type="Texture" id=116]
+[ext_resource path="res://img/personagens/menina_2/cabeca_4.png" type="Texture" id=117]
+[ext_resource path="res://scripts/numero.gd" type="Script" id=118]
+[ext_resource path="res://testeSpriteApagarDepois.tscn" type="PackedScene" id=119]
+[ext_resource path="res://img/numeros/dificil/0.png" type="Texture" id=120]
+[ext_resource path="res://img/numeros/dificil/1.png" type="Texture" id=121]
+[ext_resource path="res://img/numeros/dificil/2.png" type="Texture" id=122]
+[ext_resource path="res://img/numeros/dificil/3.png" type="Texture" id=123]
+[ext_resource path="res://img/numeros/dificil/4.png" type="Texture" id=124]
+[ext_resource path="res://img/numeros/dificil/5.png" type="Texture" id=125]
+[ext_resource path="res://img/numeros/dificil/6.png" type="Texture" id=126]
+[ext_resource path="res://img/numeros/dificil/7.png" type="Texture" id=127]
+[ext_resource path="res://img/numeros/dificil/8.png" type="Texture" id=128]
+[ext_resource path="res://img/numeros/dificil/9.png" type="Texture" id=129]
+[ext_resource path="res://FonteSecundaria.fnt" type="BitmapFont" id=130]
+[ext_resource path="res://FontePrincipall.fnt" type="BitmapFont" id=131]
+[ext_resource path="res://acertos.tscn" type="PackedScene" id=132]
+[ext_resource path="res://erros.tscn" type="PackedScene" id=133]
 
 [sub_resource type="SpriteFrames" id=1]
 
@@ -169,49 +166,49 @@ func _process(delta):
 [sub_resource type="SpriteFrames" id=3]
 
 animations = [ {
-"frames": [ ExtResource( 5 ) ],
-"loop": true,
-"name": "caracol",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
-"loop": true,
-"name": "passaro",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 11 ), ExtResource( 12 ) ],
-"loop": true,
-"name": "borboleta_2",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ) ],
-"loop": true,
-"name": "gato",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ) ],
-"loop": true,
-"name": "cachorro",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ) ],
-"loop": true,
-"name": "guaxi",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 41 ), ExtResource( 42 ) ],
-"loop": true,
-"name": "abelha",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 43 ), ExtResource( 44 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ) ],
 "loop": true,
 "name": "borboleta_1",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ) ],
+"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "passaro",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "abelha",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
 "loop": true,
 "name": "pato",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "borboleta_2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ) ],
+"loop": true,
+"name": "guaxi",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ) ],
+"loop": true,
+"name": "gato",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ) ],
+"loop": true,
+"name": "cachorro",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 48 ) ],
+"loop": true,
+"name": "caracol",
 "speed": 5.0
 } ]
 
@@ -286,7 +283,6 @@ texture = ExtResource( 2 )
 
 [node name="Node2D" type="Node2D" parent="ParallaxBackground"]
 
-editor/display_folded = true
 transform/pos = Vector2( 751.581, 55.1159 )
 
 [node name="sol" type="AnimatedSprite" parent="ParallaxBackground/Node2D"]
@@ -492,7 +488,7 @@ lookahead = 4.0
 [node name="nuvem1" type="Sprite" parent="ParallaxBackground/Node2D/nuvem_2/PathFollow2D"]
 
 transform/pos = Vector2( 7.87579, 20.5085 )
-texture = ExtResource( 53 )
+texture = ExtResource( 51 )
 script/script = ExtResource( 52 )
 
 [node name="nuvem_3" type="Path2D" parent="ParallaxBackground/Node2D"]
@@ -515,7 +511,7 @@ lookahead = 4.0
 [node name="nuvem2" type="Sprite" parent="ParallaxBackground/Node2D/nuvem_3/PathFollow2D"]
 
 transform/pos = Vector2( -26.4915, 7.62072 )
-texture = ExtResource( 54 )
+texture = ExtResource( 51 )
 script/script = ExtResource( 52 )
 
 [node name="nuvem" type="TextureFrame" parent="ParallaxBackground"]
@@ -529,7 +525,7 @@ margin/left = 15.0
 margin/top = 11.0
 margin/right = 204.0
 margin/bottom = 97.0
-texture = ExtResource( 55 )
+texture = ExtResource( 51 )
 stretch_mode = 0
 
 [node name="TextureFrame" type="TextureFrame" parent="ParallaxBackground"]
@@ -542,7 +538,7 @@ margin/left = 222.0
 margin/top = 55.0
 margin/right = 833.0
 margin/bottom = 167.0
-texture = ExtResource( 56 )
+texture = ExtResource( 53 )
 stretch_mode = 0
 
 [node name="parabens" type="TextureFrame" parent="ParallaxBackground"]
@@ -556,7 +552,7 @@ margin/left = 255.0
 margin/top = 83.0
 margin/right = 746.0
 margin/bottom = 218.0
-texture = ExtResource( 57 )
+texture = ExtResource( 54 )
 stretch_mode = 0
 
 [node name="perdeu" type="TextureFrame" parent="ParallaxBackground"]
@@ -570,7 +566,7 @@ margin/left = 314.0
 margin/top = 110.0
 margin/right = 734.0
 margin/bottom = 222.0
-texture = ExtResource( 58 )
+texture = ExtResource( 55 )
 stretch_mode = 0
 
 [node name="fim" type="TextureFrame" parent="ParallaxBackground"]
@@ -584,69 +580,69 @@ margin/left = 415.0
 margin/top = 97.0
 margin/right = 585.0
 margin/bottom = 206.0
-texture = ExtResource( 59 )
+texture = ExtResource( 56 )
 stretch_mode = 0
 
-[node name="body_1" parent="ParallaxBackground" instance=ExtResource( 60 )]
+[node name="body_1" parent="ParallaxBackground" instance=ExtResource( 57 )]
 
 margin/left = 87.0
 margin/top = 243.0
 margin/right = 262.0
 margin/bottom = 453.0
-textures/normal = ExtResource( 61 )
-textures/pressed = ExtResource( 62 )
-textures/hover = ExtResource( 63 )
+textures/normal = ExtResource( 58 )
+textures/pressed = ExtResource( 59 )
+textures/hover = ExtResource( 60 )
 params/scale = Vector2( 0.7, 0.7 )
 
-[node name="body_2" parent="ParallaxBackground" instance=ExtResource( 64 )]
+[node name="body_2" parent="ParallaxBackground" instance=ExtResource( 61 )]
 
 margin/left = 316.0
 margin/top = 241.0
 margin/right = 491.0
 margin/bottom = 451.0
-textures/normal = ExtResource( 65 )
-textures/pressed = ExtResource( 66 )
-textures/hover = ExtResource( 67 )
+textures/normal = ExtResource( 62 )
+textures/pressed = ExtResource( 63 )
+textures/hover = ExtResource( 64 )
 params/scale = Vector2( 0.7, 0.7 )
 
-[node name="girl_1" parent="ParallaxBackground" instance=ExtResource( 68 )]
+[node name="girl_1" parent="ParallaxBackground" instance=ExtResource( 65 )]
 
 margin/left = 566.0
 margin/top = 245.0
 margin/right = 741.0
 margin/bottom = 455.0
-textures/normal = ExtResource( 69 )
-textures/pressed = ExtResource( 70 )
-textures/hover = ExtResource( 71 )
+textures/normal = ExtResource( 66 )
+textures/pressed = ExtResource( 67 )
+textures/hover = ExtResource( 68 )
 params/scale = Vector2( 0.7, 0.7 )
 
-[node name="girl_2" parent="ParallaxBackground" instance=ExtResource( 72 )]
+[node name="girl_2" parent="ParallaxBackground" instance=ExtResource( 69 )]
 
 margin/left = 796.0
 margin/top = 245.0
 margin/right = 971.0
 margin/bottom = 455.0
-textures/normal = ExtResource( 73 )
-textures/pressed = ExtResource( 74 )
-textures/hover = ExtResource( 75 )
+textures/normal = ExtResource( 70 )
+textures/pressed = ExtResource( 71 )
+textures/hover = ExtResource( 72 )
 params/scale = Vector2( 0.7, 0.7 )
 
-[node name="voltar_tela2" parent="ParallaxBackground" instance=ExtResource( 76 )]
+[node name="voltar_tela2" parent="ParallaxBackground" instance=ExtResource( 73 )]
 
 margin/bottom = 605.0
-textures/normal = ExtResource( 77 )
-textures/pressed = ExtResource( 78 )
+textures/normal = ExtResource( 74 )
+textures/pressed = ExtResource( 75 )
 
-[node name="play" parent="." instance=ExtResource( 79 )]
+[node name="play" parent="." instance=ExtResource( 76 )]
 
 visibility/visible = false
 margin/left = 668.0
 margin/top = -276.0
 margin/right = 923.2
 margin/bottom = -156.8
-textures/normal = ExtResource( 80 )
-textures/pressed = ExtResource( 81 )
-textures/hover = ExtResource( 82 )
+textures/normal = ExtResource( 77 )
+textures/pressed = ExtResource( 78 )
+textures/hover = ExtResource( 79 )
 params/resize_mode = 0
 params/scale = Vector2( 0.8, 0.8 )
 params/stretch_mode = 0
@@ -665,9 +661,9 @@ margin/bottom = -79.8
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
-textures/normal = ExtResource( 77 )
-textures/pressed = ExtResource( 78 )
-textures/hover = ExtResource( 83 )
+textures/normal = ExtResource( 74 )
+textures/pressed = ExtResource( 75 )
+textures/hover = ExtResource( 80 )
 params/resize_mode = 0
 params/scale = Vector2( 0.8, 0.8 )
 params/stretch_mode = 0
@@ -686,9 +682,9 @@ margin/bottom = -156.8
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
-textures/normal = ExtResource( 84 )
-textures/pressed = ExtResource( 85 )
-textures/hover = ExtResource( 86 )
+textures/normal = ExtResource( 81 )
+textures/pressed = ExtResource( 82 )
+textures/hover = ExtResource( 83 )
 params/resize_mode = 0
 params/scale = Vector2( 0.8, 0.8 )
 params/stretch_mode = 0
@@ -704,7 +700,7 @@ margin/left = 149.0
 margin/top = -121.0
 margin/right = 393.0
 margin/bottom = -10.0
-texture = ExtResource( 55 )
+texture = ExtResource( 51 )
 stretch_mode = 0
 
 [node name="Personagem0" type="Node2D" parent="."]
@@ -719,37 +715,37 @@ transform/pos = Vector2( -84.3433, 395.869 )
 
 transform/pos = Vector2( 424.761, -141.613 )
 transform/scale = Vector2( 0.590067, 0.579488 )
-texture = ExtResource( 87 )
+texture = ExtResource( 84 )
 
 [node name="p_esquerda" type="Sprite" parent="Personagem0/corpo"]
 
 transform/pos = Vector2( 526.106, -139.076 )
 transform/scale = Vector2( 0.56896, 0.56896 )
-texture = ExtResource( 88 )
+texture = ExtResource( 85 )
 
 [node name="b_direito" type="Sprite" parent="Personagem0/corpo"]
 
 transform/pos = Vector2( 408.442, -196.274 )
 transform/scale = Vector2( 0.456692, 0.456692 )
-texture = ExtResource( 89 )
+texture = ExtResource( 86 )
 
 [node name="b_esquerdo" type="Sprite" parent="Personagem0/corpo"]
 
 transform/pos = Vector2( 549.378, -200.639 )
 transform/scale = Vector2( 0.453636, 0.453636 )
-texture = ExtResource( 90 )
+texture = ExtResource( 87 )
 
 [node name="bermuda" type="Sprite" parent="Personagem0/corpo"]
 
 transform/pos = Vector2( 476.804, -180.654 )
 transform/scale = Vector2( 0.492103, 0.492103 )
-texture = ExtResource( 91 )
+texture = ExtResource( 88 )
 
 [node name="camisa" type="Sprite" parent="Personagem0/corpo"]
 
 transform/pos = Vector2( 479.293, -225.451 )
 transform/scale = Vector2( 0.520105, 0.520105 )
-texture = ExtResource( 92 )
+texture = ExtResource( 89 )
 
 [node name="cabecas" type="Sprite" parent="Personagem0"]
 
@@ -759,35 +755,35 @@ editor/display_folded = true
 
 transform/pos = Vector2( 473.989, -335.553 )
 transform/scale = Vector2( 0.503173, 0.503173 )
-texture = ExtResource( 93 )
+texture = ExtResource( 90 )
 
 [node name="cabeca_2" type="Sprite" parent="Personagem0/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 473.902, -336.163 )
 transform/scale = Vector2( 0.503173, 0.503173 )
-texture = ExtResource( 94 )
+texture = ExtResource( 91 )
 
 [node name="cabeca_3" type="Sprite" parent="Personagem0/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 473.727, -336.13 )
 transform/scale = Vector2( 0.503173, 0.503173 )
-texture = ExtResource( 95 )
+texture = ExtResource( 92 )
 
 [node name="cabeca_4" type="Sprite" parent="Personagem0/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 473.294, -336.143 )
 transform/scale = Vector2( 0.503173, 0.503173 )
-texture = ExtResource( 96 )
+texture = ExtResource( 93 )
 
 [node name="cabeca_5" type="Sprite" parent="Personagem0/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 473.294, -336.143 )
 transform/scale = Vector2( 0.503173, 0.503173 )
-texture = ExtResource( 96 )
+texture = ExtResource( 93 )
 
 [node name="Personagem1" type="Node2D" parent="."]
 
@@ -801,37 +797,37 @@ transform/pos = Vector2( -91.1452, 397.23 )
 
 transform/pos = Vector2( 437.81, -146.507 )
 transform/scale = Vector2( 0.567422, 0.557249 )
-texture = ExtResource( 97 )
+texture = ExtResource( 94 )
 
 [node name="p_esquerda" type="Sprite" parent="Personagem1/corpo"]
 
 transform/pos = Vector2( 519.01, -142.096 )
 transform/scale = Vector2( 0.44907, 0.44907 )
-texture = ExtResource( 98 )
+texture = ExtResource( 95 )
 
 [node name="b_direito" type="Sprite" parent="Personagem1/corpo"]
 
 transform/pos = Vector2( 401.258, -203.459 )
 transform/scale = Vector2( 0.456692, 0.456692 )
-texture = ExtResource( 89 )
+texture = ExtResource( 86 )
 
 [node name="b_esquerdo" type="Sprite" parent="Personagem1/corpo"]
 
 transform/pos = Vector2( 544.589, -214.409 )
 transform/scale = Vector2( 0.453636, 0.453636 )
-texture = ExtResource( 90 )
+texture = ExtResource( 87 )
 
 [node name="camisa" type="Sprite" parent="Personagem1/corpo"]
 
 transform/pos = Vector2( 475.151, -238.591 )
 transform/scale = Vector2( 0.495283, 0.495283 )
-texture = ExtResource( 99 )
+texture = ExtResource( 96 )
 
 [node name="bermuda" type="Sprite" parent="Personagem1/corpo"]
 
 transform/pos = Vector2( 476.284, -186.616 )
 transform/scale = Vector2( 0.492067, 0.492067 )
-texture = ExtResource( 100 )
+texture = ExtResource( 97 )
 
 [node name="cabecas" type="Sprite" parent="Personagem1"]
 
@@ -839,35 +835,35 @@ texture = ExtResource( 100 )
 
 transform/pos = Vector2( 468.764, -334.81 )
 transform/scale = Vector2( 0.506451, 0.506451 )
-texture = ExtResource( 101 )
+texture = ExtResource( 98 )
 
 [node name="cabeca_2" type="Sprite" parent="Personagem1/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 468.764, -334.81 )
 transform/scale = Vector2( 0.506451, 0.506451 )
-texture = ExtResource( 102 )
+texture = ExtResource( 99 )
 
 [node name="cabeca_3" type="Sprite" parent="Personagem1/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 468.764, -334.81 )
 transform/scale = Vector2( 0.506451, 0.506451 )
-texture = ExtResource( 103 )
+texture = ExtResource( 100 )
 
 [node name="cabeca_4" type="Sprite" parent="Personagem1/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 468.764, -334.81 )
 transform/scale = Vector2( 0.506451, 0.506451 )
-texture = ExtResource( 104 )
+texture = ExtResource( 101 )
 
 [node name="cabeca_5" type="Sprite" parent="Personagem1/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 468.764, -334.81 )
 transform/scale = Vector2( 0.506451, 0.506451 )
-texture = ExtResource( 104 )
+texture = ExtResource( 101 )
 
 [node name="Personagem2" type="Node2D" parent="."]
 
@@ -881,37 +877,37 @@ transform/pos = Vector2( -91.1452, 394.509 )
 
 transform/pos = Vector2( 516.702, -146.291 )
 transform/scale = Vector2( 0.654452, 0.579568 )
-texture = ExtResource( 105 )
+texture = ExtResource( 102 )
 
 [node name="b_direito" type="Sprite" parent="Personagem2/corpo"]
 
 transform/pos = Vector2( 410.017, -207.547 )
 transform/scale = Vector2( 0.456692, 0.456692 )
-texture = ExtResource( 89 )
+texture = ExtResource( 86 )
 
 [node name="b_esquerdo" type="Sprite" parent="Personagem2/corpo"]
 
 transform/pos = Vector2( 533.201, -218.497 )
 transform/scale = Vector2( 0.453636, 0.453636 )
-texture = ExtResource( 90 )
+texture = ExtResource( 87 )
 
 [node name="camisa" type="Sprite" parent="Personagem2/corpo"]
 
 transform/pos = Vector2( 470.917, -235.212 )
 transform/scale = Vector2( 0.494642, 0.494642 )
-texture = ExtResource( 106 )
+texture = ExtResource( 103 )
 
 [node name="bermuda" type="Sprite" parent="Personagem2/corpo"]
 
 transform/pos = Vector2( 479.485, -189.743 )
 transform/scale = Vector2( 0.479664, 0.479664 )
-texture = ExtResource( 107 )
+texture = ExtResource( 104 )
 
 [node name="p_direita" type="Sprite" parent="Personagem2/corpo"]
 
 transform/pos = Vector2( 477.486, -145.736 )
 transform/scale = Vector2( 0.634885, 0.585021 )
-texture = ExtResource( 108 )
+texture = ExtResource( 105 )
 
 [node name="cabecas" type="Sprite" parent="Personagem2"]
 
@@ -919,35 +915,35 @@ texture = ExtResource( 108 )
 
 transform/pos = Vector2( 456.037, -326.604 )
 transform/scale = Vector2( 0.543345, 0.465766 )
-texture = ExtResource( 109 )
+texture = ExtResource( 106 )
 
 [node name="cabeca_2" type="Sprite" parent="Personagem2/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 456.421, -327.821 )
 transform/scale = Vector2( 0.543345, 0.473602 )
-texture = ExtResource( 110 )
+texture = ExtResource( 107 )
 
 [node name="cabeca_3" type="Sprite" parent="Personagem2/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 455.591, -327.068 )
 transform/scale = Vector2( 0.543345, 0.47814 )
-texture = ExtResource( 111 )
+texture = ExtResource( 108 )
 
 [node name="cabeca_4" type="Sprite" parent="Personagem2/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 456.087, -327.556 )
 transform/scale = Vector2( 0.543345, 0.475196 )
-texture = ExtResource( 112 )
+texture = ExtResource( 109 )
 
 [node name="cabeca_5" type="Sprite" parent="Personagem2/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 456.087, -327.556 )
 transform/scale = Vector2( 0.543345, 0.475196 )
-texture = ExtResource( 112 )
+texture = ExtResource( 109 )
 
 [node name="Personagem3" type="Node2D" parent="."]
 
@@ -961,37 +957,37 @@ transform/pos = Vector2( -91.1451, 401.311 )
 
 transform/pos = Vector2( 441.748, -151.228 )
 transform/scale = Vector2( 0.482192, 0.444321 )
-texture = ExtResource( 113 )
+texture = ExtResource( 110 )
 
 [node name="b_direito" type="Sprite" parent="Personagem3/corpo"]
 
 transform/pos = Vector2( 432.879, -240.352 )
 transform/scale = Vector2( 0.512965, 0.512965 )
-texture = ExtResource( 89 )
+texture = ExtResource( 86 )
 
 [node name="b_esquerdo" type="Sprite" parent="Personagem3/corpo"]
 
 transform/pos = Vector2( 528.517, -242.954 )
 transform/scale = Vector2( 0.490695, 0.490694 )
-texture = ExtResource( 90 )
+texture = ExtResource( 87 )
 
 [node name="camisa" type="Sprite" parent="Personagem3/corpo"]
 
 transform/pos = Vector2( 477.917, -241.212 )
 transform/scale = Vector2( 0.494642, 0.494642 )
-texture = ExtResource( 114 )
+texture = ExtResource( 111 )
 
 [node name="bermuda" type="Sprite" parent="Personagem3/corpo"]
 
 transform/pos = Vector2( 479.485, -189.743 )
 transform/scale = Vector2( 0.479664, 0.479664 )
-texture = ExtResource( 115 )
+texture = ExtResource( 112 )
 
 [node name="p_esquerda" type="Sprite" parent="Personagem3/corpo"]
 
 transform/pos = Vector2( 513.118, -150.832 )
 transform/scale = Vector2( 0.509395, 0.451109 )
-texture = ExtResource( 116 )
+texture = ExtResource( 113 )
 
 [node name="cabecas" type="Sprite" parent="Personagem3"]
 
@@ -999,38 +995,39 @@ texture = ExtResource( 116 )
 
 transform/pos = Vector2( 461.037, -339.482 )
 transform/scale = Vector2( 0.543345, 0.543344 )
-texture = ExtResource( 117 )
+texture = ExtResource( 114 )
 
 [node name="cabeca_2" type="Sprite" parent="Personagem3/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 460.421, -339.398 )
 transform/scale = Vector2( 0.543345, 0.543344 )
-texture = ExtResource( 118 )
+texture = ExtResource( 115 )
 
 [node name="cabeca_3" type="Sprite" parent="Personagem3/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 460.591, -339.409 )
 transform/scale = Vector2( 0.543345, 0.543344 )
-texture = ExtResource( 119 )
+texture = ExtResource( 116 )
 
 [node name="cabeca_4" type="Sprite" parent="Personagem3/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 460.087, -339.869 )
 transform/scale = Vector2( 0.543345, 0.543344 )
-texture = ExtResource( 120 )
+texture = ExtResource( 117 )
 
 [node name="cabeca_5" type="Sprite" parent="Personagem3/cabecas"]
 
 visibility/visible = false
 transform/pos = Vector2( 460.087, -339.869 )
 transform/scale = Vector2( 0.543345, 0.543344 )
-texture = ExtResource( 120 )
+texture = ExtResource( 117 )
 
 [node name="Control" type="Control" parent="."]
 
+editor/display_folded = true
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
@@ -1039,9 +1036,177 @@ margin/left = -38.0
 margin/top = 1.0
 margin/right = 2.0
 margin/bottom = 41.0
-script/script = ExtResource( 121 )
+script/script = ExtResource( 118 )
 
 [node name="bnt0" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 121.0
+margin/top = 9.0
+margin/right = 193.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="sprite0" parent="Control" instance=ExtResource( 119 )]
+
+transform/pos = Vector2( 157.338, 43.4553 )
+texture = ExtResource( 120 )
+hframes = 3
+
+[node name="bnt1" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 194.0
+margin/top = 9.0
+margin/right = 266.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="sprite1" parent="Control" instance=ExtResource( 119 )]
+
+transform/pos = Vector2( 230.07, 41.2347 )
+texture = ExtResource( 121 )
+hframes = 3
+
+[node name="bnt2" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 48.0
+margin/top = 144.0
+margin/right = 120.0
+margin/bottom = 210.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="sprite2" parent="Control" instance=ExtResource( 119 )]
+
+transform/pos = Vector2( 84.2031, 176.265 )
+texture = ExtResource( 122 )
+hframes = 3
+
+[node name="bnt3" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 48.0
+margin/top = 9.0
+margin/right = 120.0
+margin/bottom = 75.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="sprite3" parent="Control" instance=ExtResource( 119 )]
+
+transform/pos = Vector2( 84.1146, 41.7639 )
+texture = ExtResource( 123 )
+hframes = 3
+
+[node name="bnt4" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 121.0
+margin/top = 144.0
+margin/right = 193.0
+margin/bottom = 210.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="sprite4" parent="Control" instance=ExtResource( 119 )]
+
+transform/pos = Vector2( 157.076, 177.86 )
+texture = ExtResource( 124 )
+hframes = 3
+
+[node name="bnt5" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 194.0
+margin/top = 76.0
+margin/right = 266.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="sprite5" parent="Control" instance=ExtResource( 119 )]
+
+transform/pos = Vector2( 230.541, 107.808 )
+texture = ExtResource( 125 )
+hframes = 3
+
+[node name="bnt6" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 121.0
+margin/top = 76.0
+margin/right = 193.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="sprite6" parent="Control" instance=ExtResource( 119 )]
+
+transform/pos = Vector2( 157.768, 108.682 )
+texture = ExtResource( 126 )
+hframes = 3
+
+[node name="bnt7" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 48.0
+margin/top = 76.0
+margin/right = 120.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+
+[node name="sprite7" parent="Control" instance=ExtResource( 119 )]
+
+transform/pos = Vector2( 84.9375, 109.463 )
+texture = ExtResource( 127 )
+hframes = 3
+
+[node name="bnt8" type="Button" parent="Control"]
 
 focus/ignore_mouse = false
 focus/stop_mouse = true
@@ -1056,178 +1221,10 @@ enabled_focus_mode = 2
 shortcut = null
 flat = false
 
-[node name="sprite0" parent="Control" instance=ExtResource( 122 )]
+[node name="sprite8" parent="Control" instance=ExtResource( 119 )]
 
-transform/pos = Vector2( 157.496, 244.909 )
-texture = ExtResource( 123 )
-hframes = 3
-
-[node name="bnt1" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 48.0
-margin/top = 144.0
-margin/right = 120.0
-margin/bottom = 210.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="sprite1" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 83.7218, 176.637 )
-texture = ExtResource( 124 )
-hframes = 3
-
-[node name="bnt2" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 121.0
-margin/top = 144.0
-margin/right = 193.0
-margin/bottom = 210.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="sprite2" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 156.965, 176.44 )
-texture = ExtResource( 125 )
-hframes = 3
-
-[node name="bnt3" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 194.0
-margin/top = 144.0
-margin/right = 266.0
-margin/bottom = 210.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="sprite3" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 229.722, 176.637 )
-texture = ExtResource( 126 )
-hframes = 3
-
-[node name="bnt4" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 48.0
-margin/top = 76.0
-margin/right = 120.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="sprite4" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 84.2346, 109.157 )
-texture = ExtResource( 127 )
-hframes = 3
-
-[node name="bnt5" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 121.0
-margin/top = 76.0
-margin/right = 193.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="sprite5" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 157.56, 108.017 )
+transform/pos = Vector2( 157.563, 244.329 )
 texture = ExtResource( 128 )
-hframes = 3
-
-[node name="bnt6" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 194.0
-margin/top = 76.0
-margin/right = 266.0
-margin/bottom = 142.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="sprite6" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 230.803, 108.493 )
-texture = ExtResource( 129 )
-hframes = 3
-
-[node name="bnt7" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 48.0
-margin/top = 9.0
-margin/right = 120.0
-margin/bottom = 75.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="sprite7" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 84.5264, 42.1667 )
-texture = ExtResource( 130 )
-hframes = 3
-
-[node name="bnt8" type="Button" parent="Control"]
-
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 121.0
-margin/top = 9.0
-margin/right = 193.0
-margin/bottom = 75.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-flat = false
-
-[node name="sprite8" parent="Control" instance=ExtResource( 122 )]
-
-transform/pos = Vector2( 157.769, 41.9692 )
-texture = ExtResource( 131 )
 hframes = 3
 
 [node name="bnt9" type="Button" parent="Control"]
@@ -1237,18 +1234,18 @@ focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
 margin/left = 194.0
-margin/top = 9.0
+margin/top = 144.0
 margin/right = 266.0
-margin/bottom = 75.0
+margin/bottom = 210.0
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 flat = false
 
-[node name="sprite9" parent="Control" instance=ExtResource( 122 )]
+[node name="sprite9" parent="Control" instance=ExtResource( 119 )]
 
-transform/pos = Vector2( 229.431, 42.4935 )
-texture = ExtResource( 132 )
+transform/pos = Vector2( 229.826, 177.795 )
+texture = ExtResource( 129 )
 hframes = 3
 
 [node name="Panel1" type="Panel" parent="Control"]
@@ -1272,7 +1269,7 @@ margin/left = 17.0
 margin/top = 4.0
 margin/right = 221.0
 margin/bottom = 37.0
-custom_fonts/font = ExtResource( 133 )
+custom_fonts/font = ExtResource( 130 )
 custom_constants/shadow_offset_x = 0
 custom_constants/line_spacing = 0
 align = 1
@@ -1303,7 +1300,7 @@ margin/left = 15.0
 margin/top = 10.0
 margin/right = 227.0
 margin/bottom = 60.0
-custom_fonts/font = ExtResource( 134 )
+custom_fonts/font = ExtResource( 131 )
 custom_constants/shadow_offset_x = 0
 custom_constants/line_spacing = 0
 align = 1
@@ -1323,7 +1320,7 @@ margin/left = 17.0
 margin/top = 21.0
 margin/right = 221.0
 margin/bottom = 54.0
-custom_fonts/font = ExtResource( 133 )
+custom_fonts/font = ExtResource( 130 )
 custom_constants/shadow_offset_x = 0
 custom_constants/line_spacing = 0
 align = 1
@@ -1333,7 +1330,7 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 
-[node name="acertos" parent="Control" instance=ExtResource( 135 )]
+[node name="acertos" parent="Control" instance=ExtResource( 132 )]
 
 margin/left = -9.0
 margin/top = -266.0
@@ -1343,7 +1340,7 @@ custom_colors/font_color_shadow = Color( 1, 1, 1, 1 )
 custom_constants/shadow_offset_x = 2
 text = "Acertos: 0"
 
-[node name="erros" parent="Control" instance=ExtResource( 136 )]
+[node name="erros" parent="Control" instance=ExtResource( 133 )]
 
 margin/left = -9.0
 margin/top = -243.0
