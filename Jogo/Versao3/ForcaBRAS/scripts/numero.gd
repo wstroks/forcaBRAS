@@ -1,6 +1,6 @@
 extends Control
 #FODA-SE:
-var buttons         = ['A','B','C','D','F','G','H','I','J','K']
+var buttons         = ['0','1','2','3','4','5','6','7','8','9']
 
 var file            #arquivo txt
 var personagem
@@ -72,7 +72,6 @@ func _get_nova_palavra():
 		fim_jogo()
 
 func _processa_letras(var char):
-	char = char.to_lower() #transforma em minuscula
 	var path = 'erradas'
 	#converte a palavra em array de caracteres
 	if(condicao):
@@ -246,9 +245,6 @@ func _fim_fase():
 		
 	else: 
 		get_parent().get_node("resultado").show()
-		get_parent().get_node("Control/erros").hide()
-		get_parent().get_node("Control/acertos").hide()
-		
 
 	_habilita_teclado(true)
 	
@@ -256,58 +252,48 @@ func _fim_fase():
 func fim_jogo():
 	self.check = 1
 	get_parent().get_node("resultado").hide()
-	
-	var texto1 = 'Total de Acertos: '+str(self.acertos_fim)
-	var texto2 = 'Total de Erros: '+str(self.erros_fim)
-	
-	get_node("Panel/palavra").set_text(texto1)
-	get_node("Panel1/dica").set_text(texto2)
 
 ####################################################################
 #Funções dos botões:
-func _on_bntA_pressed():
+func _on_bnt0_pressed():
 	audio_player.play("teclado")
-	_teclado('A', 'bntA')
+	_teclado('0', 'bnt0')
 
-func _on_bntB_pressed():
+func _on_bnt1_pressed():
 	audio_player.play("teclado")
-	_teclado('B', 'bntB')
+	_teclado('1', 'bnt1')
 
-func _on_bntC_pressed():
+func _on_bnt2_pressed():
 	audio_player.play("teclado")
-	_teclado('C', 'bntC')
+	_teclado('2', 'bnt2')
 
-func _on_bntD_pressed():
+func _on_bnt3_pressed():
 	audio_player.play("teclado")
-	_teclado('D', 'bntD')
+	_teclado('3', 'bnt3')
 
-func _on_bntE_pressed():
+func _on_bnt4_pressed():
 	audio_player.play("teclado")
-	_teclado('E', 'bntE')
+	_teclado('4', 'bnt4')
 
-func _on_bntF_pressed():
+func _on_bnt5_pressed():
 	audio_player.play("teclado")
-	_teclado('F', 'bntF')
+	_teclado('5', 'bnt5')
 
-func _on_bntG_pressed():
+func _on_bnt6_pressed():
 	audio_player.play("teclado")
-	_teclado('G', 'bntG')
+	_teclado('6', 'bnt6')
 
-func _on_bntH_pressed():
+func _on_bnt7_pressed():
 	audio_player.play("teclado")
-	_teclado('H', 'bntH')
+	_teclado('7', 'bnt7')
 
-func _on_bntI_pressed():
+func _on_bnt8_pressed():
 	audio_player.play("teclado")
-	_teclado('I', 'bntI')
+	_teclado('8', 'bnt8')
 
-func _on_bntJ_pressed():
+func _on_bnt9_pressed():
 	audio_player.play("teclado")
-	_teclado('J', 'bntJ')
-
-func _on_bntK_pressed():
-	audio_player.play("teclado")
-	_teclado('K', 'bntK')
+	_teclado('9', 'bnt9')
 
 func _habilita_teclado(var cond):
 	for i in range(0, buttons.size()):

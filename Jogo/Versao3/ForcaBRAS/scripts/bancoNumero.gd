@@ -1,6 +1,6 @@
 extends Node
 
-var palavras = [['2', 'Operação de soma: 1 + 1 é'], ['500','Operação de multiplicação: 100 * 5 é'],
+var palavras = [['2', '1 + 1'], ['500','100 * 5']
                 
                 ]
 
