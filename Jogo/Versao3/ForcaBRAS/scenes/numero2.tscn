@@ -122,16 +122,16 @@
 [ext_resource path="res://img/personagens/menina_2/cabeca_4.png" type="Texture" id=120]
 [ext_resource path="res://scripts/numero.gd" type="Script" id=121]
 [ext_resource path="res://testeSpriteApagarDepois.tscn" type="PackedScene" id=122]
-[ext_resource path="res://img/numeros/facil/0.PNG" type="Texture" id=123]
-[ext_resource path="res://img/numeros/facil/1.png" type="Texture" id=124]
-[ext_resource path="res://img/numeros/facil/2.png" type="Texture" id=125]
-[ext_resource path="res://img/numeros/facil/3.png" type="Texture" id=126]
-[ext_resource path="res://img/numeros/facil/4.png" type="Texture" id=127]
-[ext_resource path="res://img/numeros/facil/5.png" type="Texture" id=128]
-[ext_resource path="res://img/numeros/facil/6.png" type="Texture" id=129]
-[ext_resource path="res://img/numeros/facil/7.png" type="Texture" id=130]
-[ext_resource path="res://img/numeros/facil/8.png" type="Texture" id=131]
-[ext_resource path="res://img/numeros/facil/9.png" type="Texture" id=132]
+[ext_resource path="res://img/numeros/dificil/0.png" type="Texture" id=123]
+[ext_resource path="res://img/numeros/dificil/1.png" type="Texture" id=124]
+[ext_resource path="res://img/numeros/dificil/2.png" type="Texture" id=125]
+[ext_resource path="res://img/numeros/dificil/3.png" type="Texture" id=126]
+[ext_resource path="res://img/numeros/dificil/4.png" type="Texture" id=127]
+[ext_resource path="res://img/numeros/dificil/5.png" type="Texture" id=128]
+[ext_resource path="res://img/numeros/dificil/6.png" type="Texture" id=129]
+[ext_resource path="res://img/numeros/dificil/7.png" type="Texture" id=130]
+[ext_resource path="res://img/numeros/dificil/8.png" type="Texture" id=131]
+[ext_resource path="res://img/numeros/dificil/9.png" type="Texture" id=132]
 [ext_resource path="res://FonteSecundaria.fnt" type="BitmapFont" id=133]
 [ext_resource path="res://FontePrincipall.fnt" type="BitmapFont" id=134]
 [ext_resource path="res://acertos.tscn" type="PackedScene" id=135]
@@ -358,7 +358,6 @@ transform/rot = -26.834
 transform/scale = Vector2( 0.250437, 0.216822 )
 frames = SubResource( 3 )
 animation = "borboleta_1"
-frame = 1
 playing = true
 script/script = ExtResource( 50 )
 
@@ -390,6 +389,7 @@ transform/rot = -1.71913e-06
 transform/scale = Vector2( -0.138882, 0.112887 )
 frames = SubResource( 3 )
 animation = "borboleta_2"
+frame = 1
 playing = true
 script/script = ExtResource( 50 )
 
@@ -418,7 +418,6 @@ transform/rot = 4.48645
 transform/scale = Vector2( 0.310033, 0.310033 )
 frames = SubResource( 3 )
 animation = "abelha"
-frame = 1
 playing = true
 script/script = ExtResource( 50 )
 
@@ -446,6 +445,7 @@ transform/pos = Vector2( -62.6754, 10.3127 )
 transform/scale = Vector2( 0.13431, 0.273383 )
 frames = SubResource( 3 )
 animation = "pato"
+frame = 3
 playing = true
 script/script = ExtResource( 50 )
 

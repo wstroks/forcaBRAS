@@ -113,6 +113,8 @@ textures/hover = ExtResource( 11 )
 params/resize_mode = 0
 params/stretch_mode = 0
 
+[connection signal="pressed" from="dificil" to="." method="_on_dificil_pressed"]
+
 [connection signal="pressed" from="normal" to="." method="_on_normal_pressed"]
 
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

@@ -20,3 +20,9 @@ func _on_normal_pressed():
 	pass # replace with function body
 	audio_player.play("click")
 	get_tree().change_scene("res://scenes/numero1.tscn")
+
+
+func _on_dificil_pressed():
+	pass # replace with function body
+	audio_player.play("click")
+	get_tree().change_scene("res://scenes/numero2.tscn")
