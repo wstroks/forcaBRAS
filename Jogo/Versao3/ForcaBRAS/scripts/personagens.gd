@@ -29,3 +29,6 @@ func _on_girl_2_pressed():
 func _on_TextureButton_pressed():
 	audio_player.play("click")
 	get_tree().change_scene("res://scenes/ui.tscn")
+func _notification(what):
+    if (what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST):
+        get_tree().quit() # default behavior

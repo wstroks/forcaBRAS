@@ -39,12 +39,8 @@ while(cap.isOpened()):
 			cv2.circle(image,far,3,[0,0,255],-1)
 	num+=1;
 
-	if num==2:
-		s='V'
-	elif num==3:
-		s='W'
-    else:
-        s="FORCABRAS"
+	s="v"
+
     feed[100:400,50:300]=image
     font = cv2.FONT_HERSHEY_SIMPLEX
     cv2.putText(feed,s,(100,450), font, 2,(255,10,10),2)

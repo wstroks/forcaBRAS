@@ -26,3 +26,6 @@ func _on_voltar_pressed():
 	pass # replace with function body
 	audio_player.play("click")
 	get_tree().change_scene("res://scenes/ui.tscn")
+func _notification(what):
+    if (what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST):
+        get_tree().quit() # default behavior

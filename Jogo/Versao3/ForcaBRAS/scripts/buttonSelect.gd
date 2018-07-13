@@ -450,3 +450,6 @@ func iniciar(var personagem):
 func _on_resultado_pressed():
 	audio_player.play("click")
 	fim_jogo()
+func _notification(what):
+    if (what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST):
+        get_tree().quit() # default behavior

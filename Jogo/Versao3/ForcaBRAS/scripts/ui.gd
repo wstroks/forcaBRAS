@@ -33,3 +33,6 @@ func _on_Sair_pressed():
 	get_tree().quit()
 	
 	pass # replace with function body
+func _notification(what):
+    if (what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST):
+        get_tree().quit() # default behavior

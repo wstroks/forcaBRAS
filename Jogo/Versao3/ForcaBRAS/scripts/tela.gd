@@ -2,6 +2,9 @@ extends EventPlayer
 
 func _ready():
 	pass
+func _notification(what):
+    if (what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST):
+        get_tree().quit() # default behavior
 
 func _on_sair_pressed():
 	audio_player.play("click")
