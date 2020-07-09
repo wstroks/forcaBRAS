@@ -37,9 +37,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
    Artigos e premiações do projeto
 </h2>
 
-- [SBgames 2018](http://www.sbgames.org/sbgames2018/files/papers/ArtesDesignShort/187637.pdf)
-- [Sbie 2018](https://www.br-ie.org/pub/index.php/sbie/article/view/8170/5854)
-- [Primeiro colocado da trilha Artes e Design sbgames 2018](https://www.sbgames.org/sbgames2018/premiacoes)
+- [SBGAMES 2018](http://www.sbgames.org/sbgames2018/files/papers/ArtesDesignShort/187637.pdf)
+- [SBIE 2018](https://www.br-ie.org/pub/index.php/sbie/article/view/8170/5854)
+- [Primeiro colocado da trilha Artes e Design SBGAMES 2018](https://www.sbgames.org/sbgames2018/premiacoes)
 
 <h2 title='#Apresentacao'>
    Vídeo Demonstrativo
