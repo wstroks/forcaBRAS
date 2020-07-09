@@ -42,7 +42,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Primeiro colocado da trilha Artes e Design SBGAMES 2018](https://www.sbgames.org/sbgames2018/premiacoes)
 
 <h2 title='#Apresentacao'>
-   Vídeo Demonstrativo
+   Vídeo demonstrativo
 </h2>
 
 -  [Youtube](https://www.youtube.com/watch?v=XVy8sk5BeM8)
@@ -56,5 +56,10 @@ Na pasta "Jogo/versão3/ForcaBRAS" do projeto, você pode executar:
 
 Importe o engine.cfg. <br />
 
+<h2 title='#Criadores'>
+   Criadores e desenvoldedores
+</h2>
 
+- [Lenington Rios](https://github.com/lenington)
+- Washington Pagotto Batista
 
